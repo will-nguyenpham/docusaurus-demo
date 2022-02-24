@@ -7,12 +7,11 @@ export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
   "url": "https://will-nguyenpham.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/docusaurus-demo/",
   "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "organizationName": "will-nguyenpham",
-  "projectName": "will-nguyenpham",
+  "projectName": "docusaurus-demo",
   "presets": [
     [
       "classic",
@@ -338,6 +337,7 @@ export default {
     ],
     "localeConfigs": {}
   },
+  "onBrokenMarkdownLinks": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"

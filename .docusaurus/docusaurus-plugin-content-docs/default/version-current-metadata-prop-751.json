@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Tutorial Intro",
-        "href": "/docs/intro",
+        "href": "/docusaurus-demo/docs/intro",
         "docId": "intro"
       },
       {
@@ -21,7 +21,7 @@
           {
             "type": "link",
             "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
+            "href": "/docusaurus-demo/docs/tutorial-basics/create-a-page",
             "docId": "tutorial-basics/create-a-page"
           },
           {
@@ -31,13 +31,13 @@
               {
                 "type": "link",
                 "label": "Create a Document",
-                "href": "/docs/tutorial-basics/create-a-document",
+                "href": "/docusaurus-demo/docs/tutorial-basics/create-a-document",
                 "docId": "tutorial-basics/create-a-document"
               },
               {
                 "type": "link",
                 "label": "Create a Blog Post",
-                "href": "/docs/tutorial-basics/create-a-blog-post",
+                "href": "/docusaurus-demo/docs/tutorial-basics/create-a-blog-post",
                 "docId": "tutorial-basics/create-a-blog-post"
               }
             ],
@@ -55,13 +55,13 @@
           {
             "type": "link",
             "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
+            "href": "/docusaurus-demo/docs/tutorial-extras/manage-docs-versions",
             "docId": "tutorial-extras/manage-docs-versions"
           },
           {
             "type": "link",
             "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
+            "href": "/docusaurus-demo/docs/tutorial-extras/translate-your-site",
             "docId": "tutorial-extras/translate-your-site"
           }
         ],

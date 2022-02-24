@@ -1,5 +1,5 @@
 {
-  "/blog-520": {
+  "/docusaurus-demo/blog-9ae": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
@@ -16,33 +16,33 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "b2b675dd"
+    "metadata": "ba37d8da"
   },
-  "/blog/archive-f4c": {
+  "/docusaurus-demo/blog/archive-1e2": {
     "component": "9e4087bc",
-    "archive": "b2f554cd"
+    "archive": "170ac664"
   },
-  "/blog/first-blog-post-6c7": {
+  "/docusaurus-demo/blog/first-blog-post-a4b": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/blog/long-blog-post-f06": {
+  "/docusaurus-demo/blog/long-blog-post-635": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/blog/mdx-blog-post-bee": {
+  "/docusaurus-demo/blog/mdx-blog-post-7eb": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/blog/tags-e13": {
+  "/docusaurus-demo/blog/tags-a8b": {
     "component": "01a85c17",
     "sidebar": "814f3328",
-    "tags": "a7023ddc"
+    "tags": "c1cedff7"
   },
-  "/blog/tags/docusaurus-ddf": {
+  "/docusaurus-demo/blog/tags/docusaurus-9a6": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -59,9 +59,9 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "a80da1cf"
+    "metadata": "a7ffea24"
   },
-  "/blog/tags/facebook-ede": {
+  "/docusaurus-demo/blog/tags/facebook-438": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -69,9 +69,9 @@
         "content": "7661071f"
       }
     ],
-    "metadata": "031793e1"
+    "metadata": "9c1f9b81"
   },
-  "/blog/tags/hello-4c2": {
+  "/docusaurus-demo/blog/tags/hello-80b": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -82,9 +82,9 @@
         "content": "8717b14a"
       }
     ],
-    "metadata": "30a24c52"
+    "metadata": "eae1db8b"
   },
-  "/blog/tags/hola-752": {
+  "/docusaurus-demo/blog/tags/hola-901": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -92,61 +92,61 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "e16015ca"
+    "metadata": "c4af08dc"
   },
-  "/blog/welcome-bfa": {
+  "/docusaurus-demo/blog/welcome-40d": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/markdown-page-be1": {
+  "/docusaurus-demo/markdown-page-632": {
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/search-79a": {
+  "/docusaurus-demo/search-d7f": {
     "component": "1a4e3797"
   },
-  "/docs-0df": {
+  "/docusaurus-demo/docs-d2c": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs/intro-aed": {
+  "/docusaurus-demo/docs/intro-dea": {
     "component": "17896441",
     "content": "0e384e19"
   },
-  "/docs/tutorial-basics/congratulations-7ef": {
+  "/docusaurus-demo/docs/tutorial-basics/congratulations-1df": {
     "component": "17896441",
     "content": "822bd8ab"
   },
-  "/docs/tutorial-basics/create-a-blog-post-68e": {
+  "/docusaurus-demo/docs/tutorial-basics/create-a-blog-post-016": {
     "component": "17896441",
     "content": "533a09ca"
   },
-  "/docs/tutorial-basics/create-a-document-c2d": {
+  "/docusaurus-demo/docs/tutorial-basics/create-a-document-480": {
     "component": "17896441",
     "content": "1e4232ab"
   },
-  "/docs/tutorial-basics/create-a-page-f44": {
+  "/docusaurus-demo/docs/tutorial-basics/create-a-page-b25": {
     "component": "17896441",
     "content": "5c868d36"
   },
-  "/docs/tutorial-basics/deploy-your-site-508": {
+  "/docusaurus-demo/docs/tutorial-basics/deploy-your-site-2d6": {
     "component": "17896441",
     "content": "f55d3e7a"
   },
-  "/docs/tutorial-basics/markdown-features-f90": {
+  "/docusaurus-demo/docs/tutorial-basics/markdown-features-304": {
     "component": "17896441",
     "content": "18c41134"
   },
-  "/docs/tutorial-extras/manage-docs-versions-fdd": {
+  "/docusaurus-demo/docs/tutorial-extras/manage-docs-versions-6af": {
     "component": "17896441",
     "content": "dff1c289"
   },
-  "/docs/tutorial-extras/translate-your-site-2d7": {
+  "/docusaurus-demo/docs/tutorial-extras/translate-your-site-67f": {
     "component": "17896441",
     "content": "e44a2883"
   },
-  "/-deb": {
+  "/docusaurus-demo/-321": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   }

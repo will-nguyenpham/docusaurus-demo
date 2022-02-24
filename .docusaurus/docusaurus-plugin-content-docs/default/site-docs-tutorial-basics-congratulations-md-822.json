@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-basics/congratulations.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/congratulations",
-  "permalink": "/docs/tutorial-basics/congratulations",
+  "permalink": "/docusaurus-demo/docs/tutorial-basics/congratulations",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
   "tags": [],
   "version": "current",

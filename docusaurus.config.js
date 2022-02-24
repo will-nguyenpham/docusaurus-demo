@@ -9,13 +9,13 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://will-nguyenpham.github.io',
-  // baseUrl: '/will-nguyenpham/',
-  baseUrl: '/',
+  baseUrl: '/docusaurus-demo/',
+  // baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  // onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'will-nguyenpham', // Usually your GitHub org/user name.
-  projectName: 'will-nguyenpham', // Usually your repo name.
+  projectName: 'docusaurus-demo', // Usually your repo name.
   // trailingSlash: false,
   presets: [
     [
