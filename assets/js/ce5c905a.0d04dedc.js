@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[553],{1793:function(e){e.exports=JSON.parse('{"allTagsPath":"/will-nguyenpham/blog/tags","slug":"/will-nguyenpham/blog/tags/facebook","name":"facebook","count":1,"permalink":"/will-nguyenpham/blog/tags/facebook"}')}}]);
