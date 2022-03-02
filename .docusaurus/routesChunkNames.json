@@ -106,7 +106,7 @@
   "/docusaurus-demo/search-d7f": {
     "component": "1a4e3797"
   },
-  "/docusaurus-demo/docs-d2c": {
+  "/docusaurus-demo/docs-788": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -114,7 +114,7 @@
     "component": "17896441",
     "content": "0e384e19"
   },
-  "/docusaurus-demo/docs/tutorial-basics/congratulations-1df": {
+  "/docusaurus-demo/docs/tutorial-basics/congratulations-d71": {
     "component": "17896441",
     "content": "822bd8ab"
   },
@@ -130,11 +130,11 @@
     "component": "17896441",
     "content": "5c868d36"
   },
-  "/docusaurus-demo/docs/tutorial-basics/deploy-your-site-2d6": {
+  "/docusaurus-demo/docs/tutorial-basics/deploy-your-site-197": {
     "component": "17896441",
     "content": "f55d3e7a"
   },
-  "/docusaurus-demo/docs/tutorial-basics/markdown-features-304": {
+  "/docusaurus-demo/docs/tutorial-basics/markdown-features-6e3": {
     "component": "17896441",
     "content": "18c41134"
   },
@@ -145,6 +145,10 @@
   "/docusaurus-demo/docs/tutorial-extras/translate-your-site-67f": {
     "component": "17896441",
     "content": "e44a2883"
+  },
+  "/docusaurus-demo/docs/version-8x-95b": {
+    "component": "17896441",
+    "content": "cc972dc5"
   },
   "/docusaurus-demo/-321": {
     "component": "c4f5d8e4",

@@ -12,6 +12,7 @@ export default {
   "favicon": "img/favicon.ico",
   "organizationName": "will-nguyenpham",
   "projectName": "docusaurus-demo",
+  "trailingSlash": false,
   "presets": [
     [
       "classic",

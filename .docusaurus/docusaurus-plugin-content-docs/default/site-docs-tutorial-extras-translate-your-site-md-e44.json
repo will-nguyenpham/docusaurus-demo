@@ -18,5 +18,9 @@
   "previous": {
     "title": "Manage Docs Versions",
     "permalink": "/docusaurus-demo/docs/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docusaurus-demo/docs/version-8x"
   }
 }

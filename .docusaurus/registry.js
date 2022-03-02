@@ -29,6 +29,7 @@ export default {
   'c1cedff7': [() => import(/* webpackChunkName: 'c1cedff7' */ '~blog/default/docusaurus-demo-blog-tags-tags-e00.json'), '~blog/default/docusaurus-demo-blog-tags-tags-e00.json', require.resolveWeak('~blog/default/docusaurus-demo-blog-tags-tags-e00.json')],
   'c4af08dc': [() => import(/* webpackChunkName: 'c4af08dc' */ '~blog/default/docusaurus-demo-blog-tags-hola-812.json'), '~blog/default/docusaurus-demo-blog-tags-hola-812.json', require.resolveWeak('~blog/default/docusaurus-demo-blog-tags-hola-812.json')],
   'c4f5d8e4': [() => import(/* webpackChunkName: 'c4f5d8e4' */ '@site/src/pages/index.js'), '@site/src/pages/index.js', require.resolveWeak('@site/src/pages/index.js')],
+  'cc972dc5': [() => import(/* webpackChunkName: 'cc972dc5' */ '@site/docs/version-8x.md'), '@site/docs/version-8x.md', require.resolveWeak('@site/docs/version-8x.md')],
   'ccc49370': [() => import(/* webpackChunkName: 'ccc49370' */ '@theme/BlogPostPage'), '@theme/BlogPostPage', require.resolveWeak('@theme/BlogPostPage')],
   'd9f32620': [() => import(/* webpackChunkName: 'd9f32620' */ '@site/blog/2021-08-26-welcome/index.md'), '@site/blog/2021-08-26-welcome/index.md', require.resolveWeak('@site/blog/2021-08-26-welcome/index.md')],
   'dff1c289': [() => import(/* webpackChunkName: 'dff1c289' */ '@site/docs/tutorial-extras/manage-docs-versions.md'), '@site/docs/tutorial-extras/manage-docs-versions.md', require.resolveWeak('@site/docs/tutorial-extras/manage-docs-versions.md')],

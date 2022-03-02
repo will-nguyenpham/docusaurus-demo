@@ -17,7 +17,8 @@
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/docusaurus-demo/docs/tutorial-basics/congratulations"
+              "path": "/docusaurus-demo/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
@@ -36,11 +37,13 @@
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/docusaurus-demo/docs/tutorial-basics/deploy-your-site"
+              "path": "/docusaurus-demo/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/docusaurus-demo/docs/tutorial-basics/markdown-features"
+              "path": "/docusaurus-demo/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
@@ -51,13 +54,18 @@
               "id": "tutorial-extras/translate-your-site",
               "path": "/docusaurus-demo/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "version-8x",
+              "path": "/docusaurus-demo/docs/version-8x",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
                 "path": "/docusaurus-demo/docs/intro",
-                "label": "Tutorial Intro"
+                "label": "intro"
               }
             }
           }

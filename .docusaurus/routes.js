@@ -70,7 +70,7 @@ export default [
   },
   {
     path: '/docusaurus-demo/docs',
-    component: ComponentCreator('/docusaurus-demo/docs','d2c'),
+    component: ComponentCreator('/docusaurus-demo/docs','788'),
     routes: [
       {
         path: '/docusaurus-demo/docs/intro',
@@ -80,8 +80,9 @@ export default [
       },
       {
         path: '/docusaurus-demo/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docusaurus-demo/docs/tutorial-basics/congratulations','1df'),
-        exact: true
+        component: ComponentCreator('/docusaurus-demo/docs/tutorial-basics/congratulations','d71'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
       },
       {
         path: '/docusaurus-demo/docs/tutorial-basics/create-a-blog-post',
@@ -103,13 +104,15 @@ export default [
       },
       {
         path: '/docusaurus-demo/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docusaurus-demo/docs/tutorial-basics/deploy-your-site','2d6'),
-        exact: true
+        component: ComponentCreator('/docusaurus-demo/docs/tutorial-basics/deploy-your-site','197'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
       },
       {
         path: '/docusaurus-demo/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docusaurus-demo/docs/tutorial-basics/markdown-features','304'),
-        exact: true
+        component: ComponentCreator('/docusaurus-demo/docs/tutorial-basics/markdown-features','6e3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
       },
       {
         path: '/docusaurus-demo/docs/tutorial-extras/manage-docs-versions',
@@ -120,6 +123,12 @@ export default [
       {
         path: '/docusaurus-demo/docs/tutorial-extras/translate-your-site',
         component: ComponentCreator('/docusaurus-demo/docs/tutorial-extras/translate-your-site','67f'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus-demo/docs/version-8x',
+        component: ComponentCreator('/docusaurus-demo/docs/version-8x','95b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }

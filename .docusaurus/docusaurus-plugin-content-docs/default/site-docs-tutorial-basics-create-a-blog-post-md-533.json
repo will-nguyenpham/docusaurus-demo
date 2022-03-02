@@ -20,7 +20,7 @@
     "permalink": "/docusaurus-demo/docs/tutorial-basics/create-a-document"
   },
   "next": {
-    "title": "Manage Docs Versions",
-    "permalink": "/docusaurus-demo/docs/tutorial-extras/manage-docs-versions"
+    "title": "Markdown Features",
+    "permalink": "/docusaurus-demo/docs/tutorial-basics/markdown-features"
   }
 }
