@@ -1,0 +1,20 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.header {
+  margin: 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 146px;
+  background: url("../../static/img/green-banner.svg") no-repeat center;
+  h3 {
+    font-size: 36px;
+    line-height: 50px;
+    color: white;
+    margin-top: 20px;
+  }
+}
+

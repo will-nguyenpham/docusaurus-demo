@@ -1,0 +1,86 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+ .footerLogoLink {
+  opacity: 0.5;
+  transition: opacity var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.footerLogoLink:hover {
+  opacity: 1;
+}
+
+.footerContainer {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.footerContainerLeft {
+  flex-grow: 4;
+}
+
+.footerContainerRight {
+  flex-grow: 6;
+  width: auto;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerCompanyText {
+  color: #849DAD;
+  font-size: 13px;
+  line-height: 23px;
+  margin-top: 35px;
+}
+
+.footerFollowusText {
+  color: #596778;
+  font-size: 13px;
+  line-height: 23px;
+  margin-top: 35px;
+}
+
+.footerSocialView {
+  display: flex;
+}
+
+.footerLinkSocial {
+  align-items: center;
+  display: contents;
+}
+
+.footerSocialImg {
+  display: flex;
+  margin-left: 30px;
+}
+
+.footerCopyRight {
+  color: #849DAD;
+  font-size: 13px;
+  line-height: 24px;
+  margin-top: 60px;
+}
+
+.footerContainerPrivacy {
+  display: flex;
+  height: 26px;
+}
+
+.footerTermText {
+  color: #849DAD;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.footerPrivacyText {
+  color: #849DAD;
+  font-size: 13px;
+  line-height: 24px;
+  margin-left: 30px;
+}

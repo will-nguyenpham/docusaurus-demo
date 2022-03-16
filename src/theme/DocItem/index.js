@@ -14,7 +14,7 @@ import DocItemFooter from '@theme/DocItemFooter';
 import TOC from '@theme/TOC';
 import TOCCollapsible from '@theme/TOCCollapsible';
 import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 import {ThemeClassNames, useWindowSize} from '@docusaurus/theme-common';
 import DiscourseForum from '../../components/DiscourseForum';
 

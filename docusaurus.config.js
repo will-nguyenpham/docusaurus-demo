@@ -6,14 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Katalon docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://will-nguyenpham.github.io',
-  // baseUrl: '/docusaurus-demo/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  // onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'will-nguyenpham', // Usually your GitHub org/user name.
   projectName: 'docusaurus-demo', // Usually your repo name.
   trailingSlash: false,
@@ -34,7 +32,7 @@ const config = {
             'https://github.com/will-nguyenpham/docusaurus-demo/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       }),
     ],
@@ -44,10 +42,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Katalon Docs',
         hideOnScroll: true,
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Katalon Docs Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -56,16 +54,28 @@ const config = {
             position: 'left',
           },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: '/docs',
             position: 'right',
+            label: 'Docs',
+            className: 'bar-items-text',
+          },
+          {
+            to: 'https://forum.katalon.com/',
+            label: 'Community',
+            position: 'right',
+            className: 'bar-items-text',
+          },
+          {
+            to: 'https://academy.katalon.com/',
+            label: 'Academy',
+            position: 'right',
+            className: 'bar-items-text',
+          },
+          {
+            to: 'https://www.katalon.com/download/',
+            label: 'Download now',
+            position: 'right',
+            className: 'bar-items-download',
           },
         ],
       },
@@ -80,49 +90,123 @@ const config = {
         //... other Algolia params
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'PRODUCTS',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Katalon Studio',
+                to: 'https://katalon.com/katalon-studio',
+              },
+              {
+                label: 'Katalon Recorder',
+                to: 'https://katalon.com/katalon-recorder-ide',
+              },
+              {
+                label: 'Katalon TestOps',
+                to: 'https://katalon.com/testops/',
+              },
+              {
+                label: 'Katalon TestCloud',
+                to: 'https://katalon.com/testcloud',
+              },
+              {
+                label: 'Katalon Store',
+                to: 'https://store.katalon.com/',
+              },
+              {
+                label: 'Pricing',
+                to: 'https://katalon.com/pricing/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'SOLUTIONS',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Web Testing',
+                to: 'https://katalon.com/web-testing',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'API Testing',
+                to: 'https://katalon.com/api-testing',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Mobile Testing',
+                to: 'https://katalon.com/mobile-testing',
+              },
+              {
+                label: 'Desktop Testing',
+                to: 'https://katalon.com/desktop-testing/',
+              },
+              {
+                label: 'Integrations',
+                to: 'https://katalon.com/integrations',
+              },
+              {
+                label: 'Methodologies',
+                to: 'https://katalon.com/methodologies',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'SUPPORT',
             items: [
+              {
+                label: 'Help Center',
+                to: 'https://support.katalon.com/hc/en-us',
+              },
+              {
+                label: 'Docs',
+                to: '/docs',
+              },
+              {
+                label: 'Community',
+                to: 'https://forum.katalon.com/',
+              },
+              {
+                label: 'Repository',
+                to: 'https://github.com/katalon-studio/katalon-studio',
+              },
+              {
+                label: 'Webinars',
+                to: 'https://katalon.com/webinars',
+              },
+              {
+                label: 'Training',
+                to: 'https://academy.katalon.com/',
+              },
+            ],
+          },
+
+          {
+            title: 'COMPANY',
+            items: [
+              {
+                label: 'About Katalon',
+                to: 'https://katalon.com/about-us/',
+              },
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'https://katalon.com/resources-center/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Partners',
+                to: 'https://katalon.com/partners/',
+              },
+              {
+                label: 'Customer Stories',
+                to: 'https://katalon.com/case-studies/',
+              },
+              {
+                label: 'Careers',
+                to: 'https://apply.workable.com/katalon/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Katalon LLC. All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -131,6 +215,8 @@ const config = {
       autoCollapseSidebarCategories: true,
       hideableSidebar: true,
     }),
+
+  plugins: ['docusaurus-plugin-sass'],
 };
 
 module.exports = config;
