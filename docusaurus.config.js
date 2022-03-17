@@ -80,9 +80,9 @@ const config = {
         ],
       },
       algolia: {
-        apiKey: 'e44c59d36394a26b1616e631a1c9d197',
-        indexName: 'edy',
-        appId: 'HXJSB0I3EO',
+        apiKey: '719e4773c20547dc1c567a1ffc409f29',
+        indexName: 'docs',
+        appId: '5E7YZB1TD0',
   
         // Optional: see doc section bellow
         contextualSearch: true,
