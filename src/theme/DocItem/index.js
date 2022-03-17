@@ -93,7 +93,7 @@ export default function DocItem(props) {
             </article>
 
             <DocPaginator previous={metadata.previous} next={metadata.next} />
-            <DiscourseForum />
+            {/* <DiscourseForum /> */}
           </div>
         </div>
         {renderTocDesktop && (
