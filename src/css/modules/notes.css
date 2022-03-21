@@ -74,7 +74,10 @@ div.note > span.note__title {
 }
 
 /* Background colors */
-div.note.note_note,
+div.note.note_note {
+  background: #DAEDF7;
+}
+
 div.note.note_trouble {
   background: #003749;
 }
