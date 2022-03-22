@@ -126,3 +126,8 @@ div.note code.ph.codeph,
 div.note div.pre.codeblock {
   color: #000000;
 }
+
+img {
+  margin: auto;
+  display: flex;
+}
