@@ -40,6 +40,9 @@ export default function DocItem(props) {
     !hideTableOfContents && DocContent.toc && DocContent.toc.length > 0;
   const renderTocDesktop =
     canRenderTOC && (windowSize === 'desktop' || windowSize === 'ssr');
+
+    // console.log(DocContent.metadata.source);
+    
   return (
     <>
       <Seo
