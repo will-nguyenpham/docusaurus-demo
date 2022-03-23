@@ -121,13 +121,12 @@ div.note * {
   color: #000000;
 }
 
+div.note a {
+  color: #2e8555;
+}
+
 /* Fix issues with background colors */
 div.note code.ph.codeph,
 div.note div.pre.codeblock {
   color: #000000;
-}
-
-img {
-  margin: auto;
-  display: flex;
 }

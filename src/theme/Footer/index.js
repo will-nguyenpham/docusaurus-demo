@@ -117,7 +117,10 @@
  function FooterLeftView(logo, copyright, sources) {
    return (
      <div className={styles.footerContainerLeft}>
-       <img src='img/logo_katalon.png'/>
+       <div className={styles.logoContainer}>
+          <img className={styles.logo} src='img/logo_katalon.png'/>
+          <p className={styles.logoText}>Katalon</p>
+       </div>
        <p className={styles.footerCompanyText}>1776 Peachtree Street NW, Suite 200N, Atlanta, GA 30309<br/>
            Phone: +1 678-500-9185<br/>
            General & Legal inquiries: info@katalon.com<br/>
