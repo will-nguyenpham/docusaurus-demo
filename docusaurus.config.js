@@ -82,7 +82,8 @@ const config = {
       algolia: {
         appId: 'UQL9BM5A25',
         indexName: 'docs',
-        apiKey: '143af23005cba6484bb0f68b4509db5f',
+        // apiKey: '143af23005cba6484bb0f68b4509db5f',
+        apiKey: '42323feb6cc5bf9d608e53f4aeacae36',
   
         // Optional: see doc section bellow
         contextualSearch: true,
