@@ -235,7 +235,11 @@ const config = {
 
   plugins: [
     'docusaurus-plugin-sass',
-    'docusaurus-plugin-image-zoom'
+    'docusaurus-plugin-image-zoom',
+    ['@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm']
+      }]
   ],
 };
 
