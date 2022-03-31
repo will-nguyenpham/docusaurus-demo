@@ -238,7 +238,15 @@ const config = {
     'docusaurus-plugin-image-zoom',
     ['@docusaurus/plugin-client-redirects',
       {
-        fromExtensions: ['html', 'htm']
+        fromExtensions: ['html', 'htm'],
+        createRedirects(existingPath) {
+          if (existingPath.includes('.html')) {
+            return [
+              existingPath.replace('', '.html'),
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
       }]
   ],
 };
