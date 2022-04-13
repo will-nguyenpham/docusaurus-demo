@@ -10,7 +10,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://will-nguyenpham.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   favicon: 'img/logo.svg',
   organizationName: 'will-nguyenpham', // Usually your GitHub org/user name.
   projectName: 'docusaurus-demo', // Usually your repo name.
@@ -1482,12 +1482,12 @@ const config = {
                   "/katalon-studio/docs/slack-integration/"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/integration/testcloud-integration",
-              from: [
-                  "/katalon-studio/docs/testcloud-integration.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/integration/testcloud-integration",
+        //       from: [
+        //           "/katalon-studio/docs/testcloud-integration.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/integration/testlink-integration",
               from: [
