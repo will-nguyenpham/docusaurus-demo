@@ -1,0 +1,33 @@
+.formContainer {
+    height: 54px;
+    border: 20px !important;
+    border-radius: 14px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.aisPoweredBy {
+    margin-top: 0.5rem;
+}
+  
+.aisPoweredBylogo {
+    height: 1rem;
+}
+
+.resultLink {
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow-x:  auto;
+    display: block;
+    height: 45px;
+    padding-top: 11px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.result:hover {
+    background-color: #F0F4F8;
+    border-radius: 4px;
+}
