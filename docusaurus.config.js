@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Katalon docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: '',
   url: 'https://will-nguyenpham.github.io',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
