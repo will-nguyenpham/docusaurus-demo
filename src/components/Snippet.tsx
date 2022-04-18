@@ -22,19 +22,26 @@ export function Snippet<THit extends AlgoliaHit<Record<string, unknown>>>({
   } else {
     textArray = hit._highlightResult.hierarchy[type].value.split(/<mark>(.*?)<\/mark>/g);
   }
+  const idxDocs = hit.url.indexOf("docs/");
+  const urlParent = hit.url.slice(idxDocs + 5);
+  const idxSplash = urlParent.indexOf("/");
+  const parentDoc = urlParent.slice(0, idxSplash).replaceAll("-", " ");
 
   return textArray != null && (
-    <Link
-      className={styles.resultLink}
-      to={hit.url}
-      target="_self">
-      {textArray.map((item, index) => (
-        <span key={index}>
-          {index % 2 == 1 ? (
-            <span style={{ color: "#0077ED" }}>{item}</span>
-          ): item}
-        </span>
-      ))}
+    <div className={styles.resultLinkContainer}>
+      <p className={styles.parentDocText}>{parentDoc}</p>
+      <Link
+        className={[styles.resultLink]}
+        to={hit.url}
+        target="_self">
+        {textArray.map((item, index) => (
+          <span key={index}>
+            {index % 2 == 1 ? (
+              <span style={{ color: "#0077ED" }}>{item}</span>
+            ): item}
+          </span>
+        ))}
     </Link>
+    </div>
   );
 }

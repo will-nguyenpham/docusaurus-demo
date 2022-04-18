@@ -13,21 +13,39 @@
     height: 1rem;
 }
 
+.resultLinkContainer {
+    display: flex;
+}
+
+.parentDocText {
+    color: #486581;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow-x: auto;
+    display: block;
+    padding-top: 13px;
+    width: 30%;
+}
+
 .resultLink {
     font-weight: 500;
     font-size: 14px;
     color: black;
     line-height: 20px;
+    text-overflow: ellipsis;
     white-space: nowrap;
-    overflow-x:  auto;
+    overflow: hidden;
     display: block;
     height: 45px;
-    padding-top: 11px;
+    padding-top: 13px;
     padding-left: 11px;
-    padding-right: 11px;
+    padding-right: 9px;
+    width: 70%;
 }
 
-.result:hover {
+.resultLink:hover {
     background-color: #F0F4F8;
     border-radius: 4px;
 }

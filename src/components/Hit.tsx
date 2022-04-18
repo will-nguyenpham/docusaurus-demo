@@ -15,7 +15,7 @@ type HitProps = {
 
 export function Hit({ hit }: HitProps) {
   return (
-    <div className={styles.result} >
+    <div>
       <Snippet hit={hit} attribute="name" />
     </div>
   );

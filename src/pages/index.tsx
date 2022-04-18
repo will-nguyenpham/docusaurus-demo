@@ -28,7 +28,7 @@ function HomepageHeader() {
 
 function search(hide, setHide) {
   return (
-    <div style={{ width: "500px", position: "absolute", left: 0, right: 0, margin: "auto", marginTop: "-41px" }}>
+    <div style={{ width: "45%", position: "absolute", left: 0, right: 0, margin: "auto", marginTop: "-41px" }}>
       <InstantSearch
         searchClient={searchClient}
         indexName={INSTANT_SEARCH_INDEX_NAME}
