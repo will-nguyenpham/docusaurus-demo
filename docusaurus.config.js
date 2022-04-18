@@ -1022,26 +1022,26 @@ const config = {
                   "/display/KD/Installation%20and%20Setup/"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/create-tests-and-projects/manage-projects/project-settings/project-settings",
-              from: [
-                  "/katalon-studio/docs/execution-settings.html",
-                  "/display/KD/Execution+Settings/",
-                  "/display/KD/Execution%20Settings/",
-                  "/x/cgFO/",
-                  "/katalon-studio/docs/execution-settings/",
-                  "/katalon-studio/docs/emails-settings.html",
-                  "/display/KD/Emails+Settings/",
-                  "/display/KD/Emails%20Settings/",
-                  "/x/tAFO/",
-                  "/katalon-studio/docs/emails-settings/",
-                  "/display/KD/Network+Settings/",
-                  "/display/KD/Network%20Settings/",
-                  "/x/gQ1O/",
-                  "/katalon-studio/docs/network-settings/",
-                  "/katalon-studio/docs/network-settings.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/create-tests-and-projects/manage-projects/project-settings/project-settings",
+        //       from: [
+        //           "/katalon-studio/docs/execution-settings.html",
+        //           "/display/KD/Execution+Settings/",
+        //           "/display/KD/Execution%20Settings/",
+        //           "/x/cgFO/",
+        //           "/katalon-studio/docs/execution-settings/",
+        //           "/katalon-studio/docs/emails-settings.html",
+        //           "/display/KD/Emails+Settings/",
+        //           "/display/KD/Emails%20Settings/",
+        //           "/x/tAFO/",
+        //           "/katalon-studio/docs/emails-settings/",
+        //           "/display/KD/Network+Settings/",
+        //           "/display/KD/Network%20Settings/",
+        //           "/x/gQ1O/",
+        //           "/katalon-studio/docs/network-settings/",
+        //           "/katalon-studio/docs/network-settings.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/extend-katalon-studio/custom-keywords/how-to-perform-database-testing-using-katalon-studio",
               from: [
@@ -1770,13 +1770,13 @@ const config = {
                   "/katalon-studio/docs/installing-webdriveragent-for-ios-devices/"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/create-tests-and-projects/configure-test-cases/mobile-testing/ios/mobile-ios-setup",
-              from: [
-                  "/katalon-studio/tutorials/mobile-ios-setup.html",
-                  "/katalon-studio/docs/mobile-on-macos.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/create-tests-and-projects/configure-test-cases/mobile-testing/ios/mobile-ios-setup",
+        //       from: [
+        //           "/katalon-studio/tutorials/mobile-ios-setup.html",
+        //           "/katalon-studio/docs/mobile-on-macos.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/create-tests-and-projects/configure-test-cases/web-testing/internet-explorer-configurations",
               from: [
