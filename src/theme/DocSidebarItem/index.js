@@ -241,8 +241,7 @@
          ThemeClassNames.docs.docSidebarItemLink,
          ThemeClassNames.docs.docSidebarItemLinkLevel(level),
          'menu__list-item',
-         className,
-         styles.itemContainer
+         className
        )}
        key={label}>
        <Link
