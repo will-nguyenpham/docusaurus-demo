@@ -147,7 +147,7 @@
              'menu__link--sublist-caret': !href,
              'menu__link--active': isActive,
            })}
-           style={{ fontSize: "14px", fontWeight: "600", lineHeight: "20px", color: isActive ? "#0077ED" : "#243B53" }}
+           style={{ fontSize: "14px", fontWeight: "600", lineHeight: "20px" }}
            onClick={
              collapsible
                ? (e) => {
@@ -252,7 +252,7 @@
              'menu__link--active': isActive,
            }
          )}
-         style={{ fontSize: "14px", fontWeight: "400", lineHeight: "20px", color: isActive ? "#0077ED" : "#243B53" }}
+         style={{ fontSize: "14px", fontWeight: "400", lineHeight: "20px" }}
          aria-current={isActive ? 'page' : undefined}
          to={href}
          {...(isInternalLink && {
