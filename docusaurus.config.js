@@ -5460,13 +5460,13 @@ const config = {
                 "/katalon-studio/docs/session-termination.html"
             ]
         },
-        {
-            to: "/docs/products-and-licenses/katalon-studio-enterprise-and-runtime-engine-licenses/troubleshoot/troubleshoot-activation-problems",
-            from: [
-                "/katalon-studio/docs/troubleshoot-activation-problems.html",
-                "/katalon-analytics/docs/network-config.html"
-            ]
-        },
+        // {
+        //     to: "/docs/products-and-licenses/katalon-studio-enterprise-and-runtime-engine-licenses/troubleshoot/troubleshoot-activation-problems",
+        //     from: [
+        //         "/katalon-studio/docs/troubleshoot-activation-problems.html",
+        //         "/katalon-analytics/docs/network-config.html"
+        //     ]
+        // },
         {
             to: "/docs/products-and-licenses/katalon-studio-enterprise-and-runtime-engine-licenses/view-license-details",
             from: [
