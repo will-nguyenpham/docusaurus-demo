@@ -17,6 +17,7 @@
   --ifm-color-primary-lighter: #009EFF;
   --ifm-color-primary-lightest: #32BEFF;
   --ifm-code-font-size: 95%;
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><path fill="rgba(0,0,0,0.5)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>'),
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -28,6 +29,7 @@ html[data-theme='dark'] {
   --ifm-color-primary-light: #009EFF;
   --ifm-color-primary-lighter: #32BEFF;
   --ifm-color-primary-lightest: #7FD6FF;
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><path fill="rgba(0,0,0,0.5)" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>'),
 }
 
 .docusaurus-highlight-code-line {
