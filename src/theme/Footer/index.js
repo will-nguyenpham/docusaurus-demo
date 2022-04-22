@@ -118,7 +118,7 @@
    return (
      <div className={styles.footerContainerLeft}>
        <div className={styles.logoContainer}>
-          <img className={styles.logo} src='img/logo_katalon.png'/>
+          <img className={styles.logo} src={require('@site/static/img/logo_katalon.png').default}/>
           <p className={styles.logoText}>Katalon</p>
        </div>
        <p className={styles.footerCompanyText}>1776 Peachtree Street NW, Suite 200N, Atlanta, GA 30309<br/>
@@ -129,10 +129,10 @@
          </p>
          <p>FOLLOW US</p>
          <div className={styles.footerSocialView}>
-           <a className={styles.footerLinkSocial} href="https://www.facebook.com/katalonstudio" target="_blank"><img src='img/ic_facebook.svg'/></a>
-           <a className={styles.footerLinkSocial} href="https://twitter.com/katalon_studio" target="_blank"><img className={styles.footerSocialImg} src='img/ic_twitter.svg'/></a>
-           <a className={styles.footerLinkSocial} href="https://www.linkedin.com/company/katalon/" target="_blank"><img className={styles.footerSocialImg} src='img/ic_in.svg'/></a>
-           <a className={styles.footerLinkSocial} href="https://www.youtube.com/c/KatalonStudio/" target="_blank"><img className={styles.footerSocialImg} src='img/ic_youtube.svg'/></a>
+           <a className={styles.footerLinkSocial} href="https://www.facebook.com/katalonstudio" target="_blank"><img src={require('@site/static/img/ic_facebook.png').default}/></a>
+           <a className={styles.footerLinkSocial} href="https://twitter.com/katalon_studio" target="_blank"><img className={styles.footerSocialImg} src={require('@site/static/img/ic_twitter.png').default}/></a>
+           <a className={styles.footerLinkSocial} href="https://www.linkedin.com/company/katalon/" target="_blank"><img className={styles.footerSocialImg} src={require('@site/static/img/ic_in.png').default}/></a>
+           <a className={styles.footerLinkSocial} href="https://www.youtube.com/c/KatalonStudio/" target="_blank"><img className={styles.footerSocialImg} src={require('@site/static/img/ic_youtube.png').default}/></a>
          </div>
          
          {/* Copy right */}
