@@ -12,7 +12,6 @@ import {
 } from '../constants';
 import { Hits } from '../widgets';
 import { PoweredBy } from '../components/PoweredBy';
-import { cx } from "../utils";
 import styles from './index.module.scss';
 
 const searchClient = algoliasearch('UQL9BM5A25', '143af23005cba6484bb0f68b4509db5f');
@@ -47,7 +46,7 @@ function search(hide, setHide) {
             <p className={styles.titleSearch}>Documentation</p>
             <PoweredBy />
           </div>
-          <div style={{ height: "1px", background: "#D9E2EC", marginBottom: "20px" }}/>
+          <div style={{ height: "1px", background: "#D9E2EC", marginBottom: "20px", marginRight: "26px" }}/>
           <Hits hitComponent={Hit} />
         </div>
       </InstantSearch>

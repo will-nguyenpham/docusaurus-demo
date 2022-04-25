@@ -22,9 +22,9 @@ export function Snippet<THit extends AlgoliaHit<Record<string, unknown>>>({
   } else {
     textArray = hit._highlightResult.hierarchy[type].value.split(/<mark>(.*?)<\/mark>/g);
   }
-  const idxDocs = hit.url.indexOf("docs/");
+  const idxDocs = hit.url.indexOf("docs/") != -1 ? hit.url.indexOf("docs/") : hit.url.indexOf("docs#");
   const urlParent = hit.url.slice(idxDocs + 5);
-  const idxSplash = urlParent.indexOf("/");
+  const idxSplash = urlParent.indexOf("/") != -1 ? urlParent.indexOf("/") : urlParent.length;
   const parentDoc = urlParent.slice(0, idxSplash).replaceAll("-", " ");
 
   return textArray != null && (
