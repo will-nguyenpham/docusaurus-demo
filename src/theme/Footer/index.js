@@ -115,6 +115,10 @@
  }
  
  function FooterLeftView(logo, copyright, sources) {
+   const SvgFacebook = require('@site/static/img/ic_facebook.svg').default;
+   const SvgTwitter = require('@site/static/img/ic_twitter.svg').default;
+   const SvgLinkedin = require('@site/static/img/ic_in.svg').default;
+   const SvgYoutube = require('@site/static/img/ic_youtube.svg').default;
    return (
      <div className={styles.footerContainerLeft}>
        <div className={styles.logoContainer}>
@@ -129,10 +133,10 @@
          </p>
          <p>FOLLOW US</p>
          <div className={styles.footerSocialView}>
-           <a className={styles.footerLinkSocial} href="https://www.facebook.com/katalonstudio" target="_blank"><img src={require('@site/static/img/ic_facebook.png').default}/></a>
-           <a className={styles.footerLinkSocial} href="https://twitter.com/katalon_studio" target="_blank"><img className={styles.footerSocialImg} src={require('@site/static/img/ic_twitter.png').default}/></a>
-           <a className={styles.footerLinkSocial} href="https://www.linkedin.com/company/katalon/" target="_blank"><img className={styles.footerSocialImg} src={require('@site/static/img/ic_in.png').default}/></a>
-           <a className={styles.footerLinkSocial} href="https://www.youtube.com/c/KatalonStudio/" target="_blank"><img className={styles.footerSocialImg} src={require('@site/static/img/ic_youtube.png').default}/></a>
+           <a className={styles.footerLinkSocial} href="https://www.facebook.com/katalonstudio" target="_blank"><SvgFacebook className={styles.footerSocialFBImg}/></a>
+           <a className={styles.footerLinkSocial} href="https://twitter.com/katalon_studio" target="_blank"><SvgTwitter className={styles.footerSocialImg}/></a>
+           <a className={styles.footerLinkSocial} href="https://www.linkedin.com/company/katalon/" target="_blank"><SvgLinkedin className={styles.footerSocialImg}/></a>
+           <a className={styles.footerLinkSocial} href="https://www.youtube.com/c/KatalonStudio/" target="_blank"><SvgYoutube className={styles.footerSocialImg}/></a>
          </div>
          
          {/* Copy right */}
