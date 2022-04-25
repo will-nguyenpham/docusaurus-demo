@@ -35,7 +35,7 @@ function search(hide, setHide) {
       >
         <Autocomplete
           searchClient={searchClient}
-          placeholder="Search documentation, ..."
+          placeholder="Search documentation..."
           detachedMediaQuery="none"
           openOnFocus
           hideResult={isHide => setHide(isHide)}
