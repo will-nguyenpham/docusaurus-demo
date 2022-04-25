@@ -1760,16 +1760,16 @@ const config = {
                   "/katalon-studio/docs/mobile-on-windows.html"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/create-tests-and-projects/configure-test-cases/mobile-testing/ios/installing-webdriveragent-for-ios-devices",
-              from: [
-                  "/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html",
-                  "/display/KD/Installing+WebDriverAgent+for+iOS+devices/",
-                  "/display/KD/Installing%20WebDriverAgent%20for%20iOS%20devices/",
-                  "/x/TwbR/",
-                  "/katalon-studio/docs/installing-webdriveragent-for-ios-devices/"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/create-tests-and-projects/configure-test-cases/mobile-testing/ios/installing-webdriveragent-for-ios-devices",
+        //       from: [
+        //           "/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html",
+        //           "/display/KD/Installing+WebDriverAgent+for+iOS+devices/",
+        //           "/display/KD/Installing%20WebDriverAgent%20for%20iOS%20devices/",
+        //           "/x/TwbR/",
+        //           "/katalon-studio/docs/installing-webdriveragent-for-ios-devices/"
+        //       ]
+        //   },
         //   {
         //       to: "/docs/katalon-studio-enterprise/create-tests-and-projects/configure-test-cases/mobile-testing/ios/mobile-ios-setup",
         //       from: [
