@@ -46,6 +46,7 @@ function Feature({title, Svg, link}: FeatureItem) {
   return (
     <Link
       className={clsx('col col--4')}
+      style={{ textDecoration: "none" }}
       to={link}
     >
       <div className={styles.featuresItem}>

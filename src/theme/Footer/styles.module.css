@@ -106,3 +106,10 @@
   font-weight: 500;
 }
 
+html[data-theme='dark'] .footerSocialFBImg path {
+  fill: white;
+}
+
+html[data-theme='dark'] .footerSocialImg path {
+  fill: white;
+}

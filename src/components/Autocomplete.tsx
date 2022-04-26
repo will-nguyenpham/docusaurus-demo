@@ -62,7 +62,8 @@ export function Autocomplete({
     const autocompleteInstance = autocomplete({
       ...autocompleteProps,
       classNames: {
-        form: cx(styles.formContainer)
+        form: cx(styles.formContainer),
+        input: cx(styles.inputSearch),
       },
       container: autocompleteContainer.current,
       initialState: { query },

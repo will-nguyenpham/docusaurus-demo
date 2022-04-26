@@ -18,6 +18,7 @@
   --ifm-color-primary-lightest: #32BEFF;
   --ifm-code-font-size: 95%;
   --ifm-menu-color: #243B53;
+  --aa-primary-color-rgb: #486581 !important;
   .menu__link--sublist-caret:after {
     background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
   }
@@ -33,9 +34,15 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: #32BEFF;
   --ifm-color-primary-lightest: #7FD6FF;
   --ifm-menu-color: white;
+  --aa-primary-color-rgb: #F5F6F7;
   .menu__link--sublist-caret:after {
     background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
   }
+}
+
+html[data-theme='dark'] .aa-ClearButton svg {
+  color: #F5F6F7 !important;
+  opacity: 0.7;
 }
 
 .docusaurus-highlight-code-line {

@@ -37,7 +37,7 @@ export function Snippet<THit extends AlgoliaHit<Record<string, unknown>>>({
         {textArray.map((item, index) => (
           <span key={index}>
             {index % 2 == 1 ? (
-              <span style={{ color: "#0077ED" }}>{item}</span>
+              <span className={styles.highlineText}>{item}</span>
             ): item}
           </span>
         ))}
