@@ -243,6 +243,7 @@
          'menu__list-item',
          className
        )}
+      //  style={{ position: "relative", overflow: "hidden" }}
        key={label}>
        <Link
          className={clsx(
@@ -262,6 +263,7 @@
          {label}
          {!isInternalLink && <IconExternalLink />}
        </Link>
+       {/* <div className={styles.highlineView} style={{ background: isActive ? "#0077ED" : "transparent" }} /> */}
      </li>
    );
  }

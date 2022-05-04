@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Katalon docs',
   tagline: '',
-  url: 'https://will-nguyenpham.github.io',
+  url: 'https://nostalgic-babbage-c2a210.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/logo.svg',
@@ -24,12 +24,6 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/will-nguyenpham/docusaurus-demo/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/will-nguyenpham/docusaurus-demo/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
@@ -86,15 +80,21 @@ const config = {
         // apiKey: '42323feb6cc5bf9d608e53f4aeacae36',
   
         // Optional: see doc section bellow
-        contextualSearch: true,
+        contextualSearch: false,
 
         // Optional: Algolia search parameters
-        searchParameters: {},
+        searchParameters: {
+            hitsPerPage: 30,
+            // page: 0,
+        },
+
+        hitsPerPage: 30,
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
   
         //... other Algolia params
+        selector: 'div#',
       },
       footer: {
         style: 'light',

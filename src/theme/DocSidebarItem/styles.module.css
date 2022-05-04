@@ -15,3 +15,11 @@
 .menuExternalLink {
   align-items: center;
 }
+
+.highlineView {
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
