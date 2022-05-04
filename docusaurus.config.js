@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Katalon docs',
   tagline: '',
-  url: 'https://nostalgic-babbage-c2a210.netlify.app/docs',
+  url: 'https://nostalgic-babbage-c2a210.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/logo.svg',
