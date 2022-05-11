@@ -1,7 +1,7 @@
 /* Import icons/font. */
 @font-face {
   font-family: icomoon;
-  src: url("https://jorsek.github.io/pdfgen.github.io/fonts/note_icons/fonts/icomoon.ttf") format("truetype");
+  src: url("@site/static/icomoon.ttf") format("truetype");
 }
 /* Style the font containing icons preceding note captions. */
 .note__title::before {
@@ -9,39 +9,51 @@
   font-family: icomoon;
   font-size: 13px;
   padding-right: 3.5px;
+  margin-right: 3px;
 }
 .note_note > .note__title::before {
-  content: "\e906";
+  content: "\e902";
+  color: #0083FF;
+}
+.note_tip > .note__title::before {
+  content: "\e902";
+  color: #0083FF;
+}
+.note_fastpath > .note__title::before {
+  content: "\e902";
+  color: #6BB545;
 }
 .note_trouble > .note__title::before {
   content: "\e901";
-}
-.note_tip > .note__title::before {
-  content: "\e908";
-}
-.note_fastpath > .note__title::before {
-  content: "\e905";
+  color: #6BB545;
 }
 .note_important > .note__title::before {
-  content: "\e90a";
+  content: "\e901";
+  color: #6BB545;
 }
 .note_remember > .note__title::before {
-  content: "\e907";
+  content: "\e903";
+  color: #F19035;
 }
 .note_restriction > .note__title::before {
-  content: "\e900";
+  content: "\e903";
+  color: #F19035;
 }
 .note_attention > .note__title::before {
-  content: "\e902";
+  content: "\e903";
+  color: #F19035;
 }
 .note_caution > .note__title::before {
-  content: "\e904";
+  content: "\e903";
+  color: #F19035;
 }
 .note_warning > .note__title::before {
-  content: "\e909";
+  content: "\e903";
+  color: #F19035;
 }
 .note_danger > .note__title::before {
-  content: "\e903";
+  content: "\e900";
+  color: #D92D20;
 }
 
 /* All notes */
@@ -75,44 +87,52 @@ div.note > span.note__title {
 
 /* Background colors */
 div.note.note_note {
-  background: #DAEDF7;
+  background: #DFEBFD;
+  border-left: 4px solid #0083FF;
 }
 
 div.note.note_trouble {
-  background: #003749;
+  background: #E8FBF0;
+  border-left: 4px solid #6BB545;
 }
 
 div.note.note_tip {
-  background: #DAEDF7;
+  background: #DFEBFD;
+  border-left: 4px solid #0083FF;
 }
 div.note.note_fastpath {
-  background: #3f6c51;
+  background: #E8FBF0;
+  border-left: 4px solid #6BB545;
 }
 
 div.note.note_important {
-  background: #D6EAC6;
+  background: #E8FBF0;
+  border-left: 4px solid #6BB545;
 }
 div.note.note_remember {
-  background: #ffa600;
+  background: #FDF8E3;
+  border-left: 4px solid #F19035;
 }
 div.note.note_restriction {
-  background: #ffa600;
+  background: #FDF8E3;
+  border-left: 4px solid #F19035;
 }
 
 div.note.note_attention {
-  background: #F2DFDE;
+  background: #FDF8E3;
+  border-left: 4px solid #F19035;
 }
 div.note.note_caution {
-  background: #D95700;
+  background: #FDF8E3;
+  border-left: 4px solid #F19035;
 }
 div.note.note_warning {
   background: #FDF8E3;
+  border-left: 4px solid #F19035;
 }
 div.note.note_danger {
-  background: #D95700;
-}
-div.note.note_restriction {
-  background: #D95700;
+  background: #FCECE7;
+  border-left: 4px solid #D92D20;
 }
 
 /* Fix issues with colors of note children */
