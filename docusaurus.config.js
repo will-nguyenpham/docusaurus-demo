@@ -606,18 +606,18 @@ const config = {
                   "/katalon-studio/docs/jenkins-pipeline-docker.html"
               ]
           },
-          {
-              to: "/docs/katalon-runtime-engine/cicd-tools-integration/jenkins-integration/use-katalon-plugins-for-jenkins-integration/on-ubuntu",
-              from: [
-                  "/katalon-studio/docs/jenkins-plugin-ubuntu.html"
-              ]
-          },
-          {
-              to: "/docs/katalon-runtime-engine/cicd-tools-integration/jenkins-integration/use-katalon-plugins-for-jenkins-integration/on-windowsmacos",
-              from: [
-                  "/katalon-studio/docs/katalon-plugin-jenkins-window-macOS.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-runtime-engine/cicd-tools-integration/jenkins-integration/use-katalon-plugins-for-jenkins-integration/on-ubuntu",
+        //       from: [
+        //           "/katalon-studio/docs/jenkins-plugin-ubuntu.html"
+        //       ]
+        //   },
+        //   {
+        //       to: "/docs/katalon-runtime-engine/cicd-tools-integration/jenkins-integration/use-katalon-plugins-for-jenkins-integration/on-windowsmacos",
+        //       from: [
+        //           "/katalon-studio/docs/katalon-plugin-jenkins-window-macOS.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-runtime-engine/cicd-tools-integration/katalon-studio-github-action",
               from: [
