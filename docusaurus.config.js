@@ -4,8 +4,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-require('dotenv').config();
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Katalon docs',
@@ -76,10 +74,9 @@ const config = {
         ],
       },
       algolia: {
-        appId: process.env.APPLICATION_ID,
-        indexName: process.env.INDEX_NAME,
-        apiKey: process.env.API_KEY_SEARCH,
-        // apiKey: '42323feb6cc5bf9d608e53f4aeacae36',
+        appId: "UQL9BM5A25",
+        indexName: "docs",
+        apiKey: "143af23005cba6484bb0f68b4509db5f",
   
         // Optional: see doc section bellow
         contextualSearch: false,
