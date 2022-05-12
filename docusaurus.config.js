@@ -56,9 +56,9 @@ const config = {
             position: 'left',
           },
           {
-            href: '/docs',
+            to: 'https://docs.katalon.com/javadoc/index.html',
             position: 'right',
-            label: 'Docs',
+            label: 'API Docs',
             className: 'bar-items-text',
           },
           {
@@ -68,7 +68,7 @@ const config = {
             className: 'bar-items-text',
           },
           {
-            to: 'https://academy.katalon.com/',
+            to: 'https://academy.katalon.com/?utm_source=menu&utm_medium=docs',
             label: 'Academy',
             position: 'right',
             className: 'bar-items-text',
