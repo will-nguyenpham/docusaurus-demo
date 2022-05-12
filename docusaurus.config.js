@@ -1362,49 +1362,49 @@ const config = {
                   "/katalon-studio/docs/git-integration-submodule.html"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/integration/kobiton-integration",
-              from: [
-                  "/katalon-studio/docs/integrate_with_kobiton.html",
-                  "/katalon-studio/tutorials/integrate_with_kobiton.html",
-                  "/katalon-studio/docs/desired-capabilities-for-kobiton-devices.html",
-                  "/display/KD/Desired+Capabilities+for+Kobiton+Devices/",
-                  "/display/KD/Desired%20Capabilities%20for%20Kobiton%20Devices/",
-                  "/x/DQrR/",
-                  "/katalon-studio/docs/desired-capabilities-for-kobiton-devices/",
-                //   "/display/KD/Desired+capabilities+for+Kobiton+devices/",
-                  "/katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html/",
-                  "/katalon-studio/docs/enable-kobiton-integration.html",
-                  "/display/KD/Enable+Kobiton+Integration/",
-                  "/display/KD/Enable%20Kobiton%20Integration/",
-                  "/display/KD/Kobiton+Integration/",
-                  "/display/KD/Kobiton%20Integration/",
-                  "/x/7IEw/",
-                  "/katalon-studio/docs/enable-kobiton-integration/"
-              ]
-          },
-          {
-              to: "/docs/katalon-studio-enterprise/integration/jira-integration/jira-integration",
-              from: [
-                  "/katalon-studio/docs/jira-integration.html",
-                  "/katalon-studio/docs/configure-jira-integration/",
-                  "/katalon-studio/docs/BDD-field-jira-cloud/",
-                  "/katalon-studio/docs/install-and-use-katalons-jira-add-on/",
-                  "/display/KD/Install+and+Use+Katalon%27s+JIRA+add-on/",
-                  "/display/KD/Install%20and%20Use%20Katalon%27s%20JIRA%20add-on/",
-                  "/x/TBBO/",
-                  "/katalon-studio/docs/working-with-jira/",
-                  "/display/KD/Configure+JIRA+Integration/",
-                  "/display/KD/Configure%20JIRA%20Integration/",
-                  "/x/7oEw/",
-                  "/display/KD/JIRA%20Integration/",
-                  "/display/KD/Working+with+JIRA/",
-                  "/display/KD/Working%20with%20JIRA/",
-                  "/x/MhBO/",
-                  "/katalon-studio/docs/jira-plugin-integration.html",
-                  "/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/integration/kobiton-integration",
+        //       from: [
+        //           "/katalon-studio/docs/integrate_with_kobiton.html",
+        //           "/katalon-studio/tutorials/integrate_with_kobiton.html",
+        //           "/katalon-studio/docs/desired-capabilities-for-kobiton-devices.html",
+        //           "/display/KD/Desired+Capabilities+for+Kobiton+Devices/",
+        //           "/display/KD/Desired%20Capabilities%20for%20Kobiton%20Devices/",
+        //           "/x/DQrR/",
+        //           "/katalon-studio/docs/desired-capabilities-for-kobiton-devices/",
+        //         //   "/display/KD/Desired+capabilities+for+Kobiton+devices/",
+        //           "/katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html/",
+        //           "/katalon-studio/docs/enable-kobiton-integration.html",
+        //           "/display/KD/Enable+Kobiton+Integration/",
+        //           "/display/KD/Enable%20Kobiton%20Integration/",
+        //           "/display/KD/Kobiton+Integration/",
+        //           "/display/KD/Kobiton%20Integration/",
+        //           "/x/7IEw/",
+        //           "/katalon-studio/docs/enable-kobiton-integration/"
+        //       ]
+        //   },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/integration/jira-integration/jira-integration",
+        //       from: [
+        //           "/katalon-studio/docs/jira-integration.html",
+        //           "/katalon-studio/docs/configure-jira-integration/",
+        //           "/katalon-studio/docs/BDD-field-jira-cloud/",
+        //           "/katalon-studio/docs/install-and-use-katalons-jira-add-on/",
+        //           "/display/KD/Install+and+Use+Katalon%27s+JIRA+add-on/",
+        //           "/display/KD/Install%20and%20Use%20Katalon%27s%20JIRA%20add-on/",
+        //           "/x/TBBO/",
+        //           "/katalon-studio/docs/working-with-jira/",
+        //           "/display/KD/Configure+JIRA+Integration/",
+        //           "/display/KD/Configure%20JIRA%20Integration/",
+        //           "/x/7oEw/",
+        //           "/display/KD/JIRA%20Integration/",
+        //           "/display/KD/Working+with+JIRA/",
+        //           "/display/KD/Working%20with%20JIRA/",
+        //           "/x/MhBO/",
+        //           "/katalon-studio/docs/jira-plugin-integration.html",
+        //           "/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/integration/katalon-api-keys",
               from: [
