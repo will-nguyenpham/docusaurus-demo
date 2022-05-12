@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-require('dotenv').config({path: './.env'});
+require('dotenv').config();
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -14,8 +14,8 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/logo.svg',
-  organizationName: 'will-nguyenpham', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-demo', // Usually your repo name.
+  organizationName: 'Katalon',
+  projectName: 'Katalon Docs',
   trailingSlash: false,
   customFields: {
     "appId": process.env.APPLICATION_ID,
