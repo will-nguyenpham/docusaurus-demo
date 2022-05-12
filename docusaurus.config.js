@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const dot = require('dotenv').config({path: './.env'});
+require('dotenv').config({path: './.env'});
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -241,12 +241,6 @@ const config = {
 
   plugins: [
     'docusaurus-plugin-sass',
-    [
-        'docusaurus2-dotenv',
-        {
-            systemvars: true,
-        }
-    ],
     'docusaurus-plugin-image-zoom',
     [
       '@docusaurus/plugin-client-redirects',
