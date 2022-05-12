@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require('dotenv').config();
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -15,6 +17,11 @@ const config = {
   organizationName: 'will-nguyenpham', // Usually your GitHub org/user name.
   projectName: 'docusaurus-demo', // Usually your repo name.
   trailingSlash: false,
+  customFields: {
+    "appId": process.env.APPLICATION_ID,
+    "indexName": process.env.INDEX_NAME,
+    "apiKey": process.env.API_KEY_SEARCH,
+  },
   presets: [
     [
       'classic',
@@ -74,9 +81,9 @@ const config = {
         ],
       },
       algolia: {
-        appId: "UQL9BM5A25",
-        indexName: "docs",
-        apiKey: "143af23005cba6484bb0f68b4509db5f",
+        appId: process.env.APPLICATION_ID,
+        indexName: process.env.INDEX_NAME,
+        apiKey: process.env.API_KEY_SEARCH,
   
         // Optional: see doc section bellow
         contextualSearch: false,
@@ -234,6 +241,12 @@ const config = {
 
   plugins: [
     'docusaurus-plugin-sass',
+    [
+        'docusaurus2-dotenv',
+        {
+            systemvars: true,
+        }
+    ],
     'docusaurus-plugin-image-zoom',
     [
       '@docusaurus/plugin-client-redirects',
