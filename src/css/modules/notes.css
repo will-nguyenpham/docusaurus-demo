@@ -257,7 +257,7 @@ html[data-theme='dark'] div.note code.ph.codeph, div.note div.pre.codeblock {
 	position: absolute;
 	top: 0;
 	left: 20px;
-	content: "Notes";
+	content: "Tips";
 }
 
 .note_remember > .note__title::after {
@@ -265,7 +265,7 @@ html[data-theme='dark'] div.note code.ph.codeph, div.note div.pre.codeblock {
 	position: absolute;
 	top: 0;
 	left: 20px;
-	content: "Notice";
+	content: "Notices";
 }
 
 .note_attention > .note__title::after {
@@ -273,7 +273,7 @@ html[data-theme='dark'] div.note code.ph.codeph, div.note div.pre.codeblock {
   position: absolute;
 	top: 0;
 	left: 20px;
-	content: "Notice";
+	content: "Notices";
 }
 
 .note_restriction > .note__title::after {
@@ -281,7 +281,7 @@ html[data-theme='dark'] div.note code.ph.codeph, div.note div.pre.codeblock {
 	position: absolute;
 	top: 0;
 	left: 20px;
-	content: "Notice";
+	content: "Notices";
 }
 
 .note_caution > .note__title::after {
@@ -289,7 +289,7 @@ html[data-theme='dark'] div.note code.ph.codeph, div.note div.pre.codeblock {
 	position: absolute;
 	top: 0;
 	left: 20px;
-	content: "Notice";
+	content: "Notices";
 }
 
 .note_warning > .note__title::after {
