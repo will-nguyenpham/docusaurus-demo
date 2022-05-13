@@ -5988,14 +5988,14 @@ const config = {
                 "/katalon-analytics/docs/kt-build.html"
             ]
         },
-        {
-            to: "/docs/katalon-testops/test-planning/releases",
-            from: [
-                "/katalon-analytics/docs/kt-release.html",
-                "/katalon-analytics/docs/release.html",
-                "/katalon-analytics/docs/kt-jira-release.html"
-            ]
-        },
+        // {
+        //     to: "/docs/katalon-testops/test-planning/releases",
+        //     from: [
+        //         "/katalon-analytics/docs/kt-release.html",
+        //         "/katalon-analytics/docs/release.html",
+        //         "/katalon-analytics/docs/kt-jira-release.html"
+        //     ]
+        // },
         {
             to: "/docs/katalon-testops/test-planning/schedules/schedule-test-runs",
             from: [
@@ -6005,13 +6005,13 @@ const config = {
                 "/katalon-analytics/docs/kt-remote-execution.html"
             ]
         },
-        {
-            to: "/docs/katalon-testops/test-planning/schedules/execute-test-runs",
-            from: [
-                "/katalon-analytics/docs/kt-scheduler.html",
-                "/katalon-analytics/docs/execute-test-run.html"
-            ]
-        },
+        // {
+        //     to: "/docs/katalon-testops/test-planning/schedules/execute-test-runs",
+        //     from: [
+        //         "/katalon-analytics/docs/kt-scheduler.html",
+        //         "/katalon-analytics/docs/execute-test-run.html"
+        //     ]
+        // },
         {
             to: "/docs/katalon-testops/tutorials",
             from: [
