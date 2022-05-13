@@ -4,7 +4,14 @@
   src: url("@site/static/icomoon.ttf") format("truetype");
 }
 /* Style the font containing icons preceding note captions. */
+
+.note__title {
+  visibility: hidden;
+	position: relative;
+}
+
 .note__title::before {
+  visibility: visible;
   display: inline-block;
   font-family: icomoon;
   font-size: 13px;
@@ -211,4 +218,92 @@ div.note div.pre.codeblock {
 
 html[data-theme='dark'] div.note code.ph.codeph, div.note div.pre.codeblock {
   color: white;
+}
+
+.note_fastpath > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Requirements";
+}
+
+.note_trouble > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Requirements";
+}
+
+.note_important > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Requirements";
+}
+
+.note_note > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Notes";
+}
+
+.note_tip > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Notes";
+}
+
+.note_remember > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Notice";
+}
+
+.note_attention > .note__title::after {
+	visibility: visible;
+  position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Notice";
+}
+
+.note_restriction > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Notice";
+}
+
+.note_caution > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Notice";
+}
+
+.note_warning > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Notice";
+}
+
+.note_danger > .note__title::after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 20px;
+	content: "Known Issues";
 }
