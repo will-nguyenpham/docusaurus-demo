@@ -43,6 +43,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+            autoCollapseCategories: true,
+            hideable: true,
+        },
+      },
       navbar: {
         title: 'Katalon Docs',
         hideOnScroll: true,
@@ -236,8 +242,6 @@ const config = {
           }
         }
       },
-      autoCollapseSidebarCategories: true,
-      hideableSidebar: true,
     }),
 
   plugins: [
