@@ -86,7 +86,7 @@ export default function Home(): JSX.Element {
   //   // console.log(e);
   // }, []);
 
-  useScript('https://survey.survicate.com/workspaces/49a2b0dd562f389f2cb160ecd548a345/web_surveys.js');
+  // useScript('https://survey.survicate.com/workspaces/49a2b0dd562f389f2cb160ecd548a345/web_surveys.js');
 
   return (
     <Layout>
