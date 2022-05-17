@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
@@ -54,12 +54,39 @@ function search(hide, setHide, searchClient, siteConfig) {
 
 var searchClient;
 
+const useScript = url => {
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = url;
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, [url]);
+};
+
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   if (searchClient == undefined) {
     searchClient = algoliasearch(siteConfig.customFields.appId, siteConfig.customFields.apiKey);
   }
   const [hide, setHide] = useState(true);
+
+  useEffect(() => {
+    var s = document.createElement('script');
+    s.src = 'https://survey.survicate.com/workspaces/49a2b0dd562f389f2cb160ecd548a345/web_surveys.js';
+    // s.type = 'text/javascript';
+    s.async = true;
+    var e = document.getElementsByTagName('script')[0];
+    e.parentNode.insertBefore(s, e);
+    // console.log(e);
+  }, []);
+
+  // useScript('https://survey.survicate.com/workspaces/49a2b0dd562f389f2cb160ecd548a345/web_surveys.js');
 
   return (
     <Layout>
