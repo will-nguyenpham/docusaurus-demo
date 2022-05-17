@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Katalon docs',
   tagline: '',
-  url: 'https://docs-dev.katalon.com/',
+  url: 'https://docs-dev.katalon.com',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/logo.svg',
