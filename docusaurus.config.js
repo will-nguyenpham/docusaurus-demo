@@ -5269,7 +5269,7 @@ const config = {
               ]
           },
           {
-              to: "/docs/katalon-studio-enterprise/test-design/mobile-test-design/mobile-test-objects/find-mobile-objects",
+              to: "/docs/katalon-studio-enterprise/test-design/mobile-test-design/mobile-test-objects/locators-and-object-identification",
               from: [
                   "/katalon-studio/docs/locators_object_identification.html",
                   "/katalon-studio/tutorials/locators_object_identification.html"
@@ -5997,14 +5997,14 @@ const config = {
                 "/katalon-analytics/docs/kt-build.html"
             ]
         },
-        // {
-        //     to: "/docs/katalon-testops/test-planning/releases",
-        //     from: [
-        //         "/katalon-analytics/docs/kt-release.html",
-        //         "/katalon-analytics/docs/release.html",
-        //         "/katalon-analytics/docs/kt-jira-release.html"
-        //     ]
-        // },
+        {
+             to: "/docs/katalon-testops/test-planning/releases",
+             from: [
+                 "/katalon-analytics/docs/kt-release.html",
+                 "/katalon-analytics/docs/release.html",
+                 "/katalon-analytics/docs/kt-jira-release.html"
+             ]
+         },
         {
             to: "/docs/katalon-testops/test-planning/schedules/schedule-test-runs",
             from: [
