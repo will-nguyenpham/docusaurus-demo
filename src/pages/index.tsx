@@ -76,17 +76,17 @@ export default function Home(): JSX.Element {
   }
   const [hide, setHide] = useState(true);
 
-  useEffect(() => {
-    var s = document.createElement('script');
-    s.src = 'https://survey.survicate.com/workspaces/49a2b0dd562f389f2cb160ecd548a345/web_surveys.js';
-    // s.type = 'text/javascript';
-    s.async = true;
-    var e = document.getElementsByTagName('script')[0];
-    e.parentNode.insertBefore(s, e);
-    // console.log(e);
-  }, []);
+  // useEffect(() => {
+  //   var s = document.createElement('script');
+  //   s.src = 'https://survey.survicate.com/workspaces/49a2b0dd562f389f2cb160ecd548a345/web_surveys.js';
+  //   // s.type = 'text/javascript';
+  //   s.async = true;
+  //   var e = document.getElementsByTagName('script')[0];
+  //   e.parentNode.insertBefore(s, e);
+  //   // console.log(e);
+  // }, []);
 
-  // useScript('https://survey.survicate.com/workspaces/49a2b0dd562f389f2cb160ecd548a345/web_surveys.js');
+  useScript('https://survey.survicate.com/workspaces/49a2b0dd562f389f2cb160ecd548a345/web_surveys.js');
 
   return (
     <Layout>
