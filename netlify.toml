@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "/katalon-analytics/docs/kt-release.html"
+  to = "/docs/katalon-testops/test-planning/releases"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/katalon-analytics/docs/release.html"
+  to = "/docs/katalon-testops/test-planning/releases"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/katalon-analytics/docs/kt-jira-release.html"
+  to = "/docs/katalon-testops/test-planning/releases"
+  status = 301
+  force = false
