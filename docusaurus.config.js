@@ -5268,13 +5268,13 @@ const config = {
                   "/display/KD/Spy%20Object/"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/test-design/mobile-test-design/mobile-test-objects/find-mobile-objects",
-              from: [
-                  "/katalon-studio/docs/locators_object_identification.html",
-                  "/katalon-studio/tutorials/locators_object_identification.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/test-design/mobile-test-design/mobile-test-objects/find-mobile-objects",
+        //       from: [
+        //           "/katalon-studio/docs/locators_object_identification.html",
+        //           "/katalon-studio/tutorials/locators_object_identification.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/test-design/mobile-test-design/testing-mobile-apps-using-katalon-studio-and-kobiton-cloud-based-device-farm",
               from: [
