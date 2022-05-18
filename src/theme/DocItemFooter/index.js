@@ -83,12 +83,12 @@
    if (!canDisplayFooter) {
      return null;
    }
-   useScript();
    return (
      <footer
        className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
        {canDisplayTagsRow && <TagsRow tags={tags} />}
-       {/* <div id="pd_rating_holder_8726954"></div> */}
+       {/* <div id="pd_rating_holder_8726954"></div>
+       {useScript()} */}
        {/* {canDisplayEditMetaRow && (
          <EditMetaRow
            editUrl={editUrl}

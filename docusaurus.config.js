@@ -983,21 +983,21 @@ const config = {
                   "/katalon-studio/docs/known-issues-limitations/"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-web-automated-testing",
-              from: [
-                  "/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html",
-                  "/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element/",
-                  "/display/KD/Troubleshooting%20common%20issues%20related%20to%20interacting%20with%20an%20element/",
-                  "/x/awXR/",
-                  "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element/",
-                  "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html",
-                  "/display/KD/troubleshooting+web+automated+testing/",
-                  "/display/KD/troubleshooting%20web%20automated%20testing/",
-                  "/katalon-studio/docs/troubleshooting-web-automated-testing/",
-                  "/katalon-studio/docs/troubleshooting-web-automated-testing.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-web-automated-testing",
+        //       from: [
+        //           "/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html",
+        //           "/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element/",
+        //           "/display/KD/Troubleshooting%20common%20issues%20related%20to%20interacting%20with%20an%20element/",
+        //           "/x/awXR/",
+        //           "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element/",
+        //           "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html",
+        //           "/display/KD/troubleshooting+web+automated+testing/",
+        //           "/display/KD/troubleshooting%20web%20automated%20testing/",
+        //           "/katalon-studio/docs/troubleshooting-web-automated-testing/",
+        //           "/katalon-studio/docs/troubleshooting-web-automated-testing.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-windows-automated-testing",
               from: [
