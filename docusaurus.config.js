@@ -423,12 +423,12 @@ const config = {
                   "/katalon-recorder/docs/selenese-selenium-ide-commands-reference/"
               ]
           },
-          {
-              to: "/docs/katalon-recorder/get-your-job-done/automate-scenarios/how-to-write-and-extract-data-in-a-test-case",
-              from: [
-                  "/katalon-recorder/docs/write-and-extract-data.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-recorder/get-your-job-done/automate-scenarios/how-to-write-and-extract-data-in-a-test-case",
+        //       from: [
+        //           "/katalon-recorder/docs/write-and-extract-data.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-recorder/get-your-job-done/data-driven-testing/data-driven-testing-in-katalon-recorder",
               from: [
@@ -998,28 +998,28 @@ const config = {
         //           "/katalon-studio/docs/troubleshooting-web-automated-testing.html"
         //       ]
         //   },
-          {
-              to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-windows-automated-testing",
-              from: [
-                  "/katalon-studio/docs/troubleshoot-common-execution-exceptions-windows.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-windows-automated-testing",
+        //       from: [
+        //           "/katalon-studio/docs/troubleshoot-common-execution-exceptions-windows.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-common-exceptions",
               from: [
                   "/katalon-studio/docs/troubleshooting.html"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-mobile-automated-testing",
-              from: [
-                  "/katalon-studio/docs/troubleshooting-automated-mobile-testing.html",
-                  "/display/KD/Troubleshooting+automated+mobile+testing/",
-                  "/display/KD/Troubleshooting%20automated%20mobile%20testing/",
-                  "/x/fBdO/",
-                  "/katalon-studio/docs/troubleshooting-automated-mobile-testing/"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-mobile-automated-testing",
+        //       from: [
+        //           "/katalon-studio/docs/troubleshooting-automated-mobile-testing.html",
+        //           "/display/KD/Troubleshooting+automated+mobile+testing/",
+        //           "/display/KD/Troubleshooting%20automated%20mobile%20testing/",
+        //           "/x/fBdO/",
+        //           "/katalon-studio/docs/troubleshooting-automated-mobile-testing/"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/set-up-katalon-studio/installation/installation-overview",
               from: [
@@ -5354,26 +5354,26 @@ const config = {
                 "/katalon-store/docs/user/access-store-in-KS/"
             ]
           },
-          {
-              to: "/docs/katalon-store/manage-api-keys",
-              from: [
-                  "/katalon-store/docs/user/API-key.html",
-                  "/katalon-store/docs/user/API-key/"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-store/manage-api-keys",
+        //       from: [
+        //           "/katalon-store/docs/user/API-key.html",
+        //           "/katalon-store/docs/user/API-key/"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-store/essential-plugins-bundle",
               from: [
                   "/katalon-store/docs/user/essential-plugin-bundle.html"
               ]
           },
-          {
-              to: "/docs/katalon-store/install-use-and-review-a-plugin",
-              from: [
-                  "/katalon-store/docs/user/getting-started.html",
-                  "/katalon-store/docs/user/getting-started/"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-store/install-use-and-review-a-plugin",
+        //       from: [
+        //           "/katalon-store/docs/user/getting-started.html",
+        //           "/katalon-store/docs/user/getting-started/"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-store/overview",
               from: [
@@ -5595,54 +5595,54 @@ const config = {
                 "/katalon-analytics/docs/test-usage-balance-usage-dashboard.html"
             ]
         },
-        {
-          to: "/docs/katalon-testcloud-trial/get-started/integration-with-testops",
-          from: [
-              "/katalon-testcloud/docs/integrate-testcloud-with-testops.html"
-          ]
-        },
-        {
-            to: "/docs/katalon-testcloud-trial/get-started/testcloud-tunnel",
-            from: [
-                "/katalon-testcloud/docs/testcloud-tunnel.html"
-            ]
-        },
-        {
-            to: "/docs/katalon-testcloud-trial/get-started/usage-quota",
-            from: [
-                "/katalon-testcloud/docs/usage-quota-guide.html"
-            ]
-        },
-        {
-            to: "/docs/katalon-testcloud-trial/overview",
-            from: [
-                "/katalon-testcloud/docs/testcloud-overview.html"
-            ]
-        },
-        {
-            to: "/docs/katalon-testcloud-trial/supported-environments",
-            from: [
-                "/katalon-testcloud/docs/testcloud-supported-environments.html"
-            ]
-        },
-        {
-            to: "/docs/katalon-testcloud-trial/troubleshooting/unable-to-set-up-testcloud-tunnel-in-macos",
-            from: [
-                "/katalon-testcloud/docs/troubleshoot-macos-workaround.html"
-            ]
-        },
-        {
-            to: "/docs/katalon-testcloud-trial/troubleshooting/tests-not-loading-when-executing-with-chrome-version-9394-in-windows",
-            from: [
-                "/katalon-testcloud/docs/troubleshoot-test-execution-chrome-93-94.html"
-            ]
-        },
-        {
-            to: "/docs/katalon-testcloud-trial/release-notes",
-            from: [
-                "/katalon-testcloud/docs/release-notes.html"
-            ]
-        },
+        // {
+        //   to: "/docs/katalon-testcloud-trial/get-started/integration-with-testops",
+        //   from: [
+        //       "/katalon-testcloud/docs/integrate-testcloud-with-testops.html"
+        //   ]
+        // },
+        // {
+        //     to: "/docs/katalon-testcloud-trial/get-started/testcloud-tunnel",
+        //     from: [
+        //         "/katalon-testcloud/docs/testcloud-tunnel.html"
+        //     ]
+        // },
+        // {
+        //     to: "/docs/katalon-testcloud-trial/get-started/usage-quota",
+        //     from: [
+        //         "/katalon-testcloud/docs/usage-quota-guide.html"
+        //     ]
+        // },
+        // {
+        //     to: "/docs/katalon-testcloud-trial/overview",
+        //     from: [
+        //         "/katalon-testcloud/docs/testcloud-overview.html"
+        //     ]
+        // },
+        // {
+        //     to: "/docs/katalon-testcloud-trial/supported-environments",
+        //     from: [
+        //         "/katalon-testcloud/docs/testcloud-supported-environments.html"
+        //     ]
+        // },
+        // {
+        //     to: "/docs/katalon-testcloud-trial/troubleshooting/unable-to-set-up-testcloud-tunnel-in-macos",
+        //     from: [
+        //         "/katalon-testcloud/docs/troubleshoot-macos-workaround.html"
+        //     ]
+        // },
+        // {
+        //     to: "/docs/katalon-testcloud-trial/troubleshooting/tests-not-loading-when-executing-with-chrome-version-9394-in-windows",
+        //     from: [
+        //         "/katalon-testcloud/docs/troubleshoot-test-execution-chrome-93-94.html"
+        //     ]
+        // },
+        // {
+        //     to: "/docs/katalon-testcloud-trial/release-notes",
+        //     from: [
+        //         "/katalon-testcloud/docs/release-notes.html"
+        //     ]
+        // },
         {
           to: "/docs/katalon-testops/get-started/set-up-an-account",
           from: [
@@ -5688,12 +5688,12 @@ const config = {
                 "/katalon-analytics/docs/kt_transfer_ownership.html"
             ]
         },
-        {
-            to: "/docs/katalon-testops/get-started/join-an-organization",
-            from: [
-                "/katalon-analytics/docs/kt_users_joining_org.html"
-            ]
-        },
+        // {
+        //     to: "/docs/katalon-testops/get-started/join-an-organization",
+        //     from: [
+        //         "/katalon-analytics/docs/kt_users_joining_org.html"
+        //     ]
+        // },
         {
             to: "/docs/katalon-testops/get-started/manage-user-profile",
             from: [
@@ -5858,12 +5858,12 @@ const config = {
                 "/katalon-analytics/docs/test-run-config.html"
             ]
         },
-        {
-            to: "/docs/katalon-testops/reporting/view-testops-dashboard",
-            from: [
-                "/katalon-analytics/docs/dashboard-overview.html"
-            ]
-        },
+        // {
+        //     to: "/docs/katalon-testops/reporting/view-testops-dashboard",
+        //     from: [
+        //         "/katalon-analytics/docs/dashboard-overview.html"
+        //     ]
+        // },
         {
             to: "/docs/katalon-testops/reporting/view-re-run-test-results",
             from: [
