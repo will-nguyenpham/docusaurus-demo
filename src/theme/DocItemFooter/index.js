@@ -4,7 +4,7 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
- import React, { useEffect } from 'react';
+ import React from 'react';
  import clsx from 'clsx';
  import LastUpdated from '@theme/LastUpdated';
  import EditThisPage from '@theme/EditThisPage';
@@ -48,28 +48,6 @@
      </div>
    );
  }
- 
- const useScript = () => {
-  useEffect(() => {
-    const PDRTJS_settings_8726954 = {
-      "id": "8726954",
-      "unique_id": "{{ page.path }}",
-      "title": "{{ page.title }}",
-      "permalink": "https://github.com/{{site.github_editme_path}}/blob/{{site.branch}}/{{page.path}}"
-    };
-
-    // if (!document.getElementById(j)) {
-      const d = document.createElement('script');
-      d.type = 'text/javascript';
-      d.async = true;
-      d.id = 'pd-rating-js';
-
-      d.src = ('https:' == document.location.protocol) ? 'https://polldaddy.com/js/rating/rating.js' : 'http://i0.poll.fm/js/rating/rating.js';
-      document.getElementsByTagName('script')[0].appendChild(d);
-    // }
-
-  }, []);
-};
 
  export default function DocItemFooter(props) {
    const {content: DocContent} = props;
