@@ -2093,16 +2093,16 @@ const config = {
                   "/katalon-studio/docs/import-rest-requests-from-swagger-20/"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/test-design/web-services-test-design/import-web-service-objects/import-soap-requests-from-wsdls",
-              from: [
-                  "/katalon-studio/docs/import-soap-requests-from-wsdl.html",
-                  "/display/KD/Import+SOAP+requests+from+WSDL/",
-                  "/display/KD/Import%20SOAP%20requests%20from%20WSDL/",
-                  "/x/BhbR/",
-                  "/katalon-studio/docs/import-soap-requests-from-wsdl/"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/test-design/web-services-test-design/import-web-service-objects/import-soap-requests-from-wsdls",
+        //       from: [
+        //           "/katalon-studio/docs/import-soap-requests-from-wsdl.html",
+        //           "/display/KD/Import+SOAP+requests+from+WSDL/",
+        //           "/display/KD/Import%20SOAP%20requests%20from%20WSDL/",
+        //           "/x/BhbR/",
+        //           "/katalon-studio/docs/import-soap-requests-from-wsdl/"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/test-design/web-services-test-design/import-web-service-objects/import-web-service-requests-from-soapui",
               from: [
