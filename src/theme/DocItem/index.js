@@ -84,7 +84,7 @@ function DocItemContent(props) {
   const renderTocDesktop =
     canRenderTOC && (windowSize === 'desktop' || windowSize === 'ssr');
 
-  configFirstLoad();
+  // configFirstLoad();
   return (
     <div className="row">
       <div className={clsx('col', !hideTableOfContents && styles.docItemCol)}>
@@ -124,10 +124,10 @@ function DocItemContent(props) {
             </div>
 
             <DocItemFooter {...props} />
-            <div id="pd_rating_holder_8726954"></div>
+            {/* <div id="pd_rating_holder_8726954"></div>
             <Helmet>
               <script type="text/javascript" charset="utf-8" src="https://polldaddy.com/js/rating/rating.js"></script>
-            </Helmet>
+            </Helmet> */}
           </article>
 
           <DocPaginator previous={metadata.previous} next={metadata.next} />

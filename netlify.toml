@@ -1,3 +1,6 @@
+[Settings]
+ID = "68d7e6bf-751f-4fa6-a328-af235f8b1c74"
+
 [[redirects]]
   from = "/katalon-analytics/docs/kt-release.html"
   to = "/docs/katalon-testops/test-planning/releases"
