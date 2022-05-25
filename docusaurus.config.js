@@ -2071,12 +2071,12 @@ const config = {
                   "/katalon-studio/docs/handle-response-messages/"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/test-design/web-services-test-design/import-web-service-objects/import-rest-api-requests-with-openapi-specification-3.0",
-              from: [
-                  "/katalon-studio/docs/import-openapi30.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/test-design/web-services-test-design/import-web-service-objects/import-rest-api-requests-with-openapi-specification-3.0",
+        //       from: [
+        //           "/katalon-studio/docs/import-openapi30.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/test-design/web-services-test-design/import-web-service-objects/import-restful-from-postman",
               from: [
