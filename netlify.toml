@@ -6,10 +6,7 @@
 [[redirects]]
   from = "/katalon-analytics/docs/release.html"
   to = "/docs/katalon-testops/test-planning/releases"
-  status = 200
 
 [[redirects]]
   from = "/katalon-analytics/docs/kt-jira-release.html"
   to = "/docs/katalon-testops/test-planning/releases"
-  status = 200
-  force = true
