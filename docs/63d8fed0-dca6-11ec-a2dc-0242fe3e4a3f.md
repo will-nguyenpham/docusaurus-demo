@@ -1,0 +1,45 @@
+---
+id: "63d8fed0-dca6-11ec-a2dc-0242fe3e4a3f"
+title: "Cancel Subscriptions"
+slug: "products-and-licenses/katalon-testcloud-subscriptions/manage-subscriptions/cancel-subscriptions"
+hide_title: true
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+
+# <a id="id" class="anchor_top_offset"/><a id="ariaid-title1" class="anchor_top_offset"/>Cancel Subscriptions
+
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">You can cancel your subscription at any time.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">Canceling a subscription will turn off the automatic renewal of   your subscription.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">The cancellation takes effect at the end of the current billing   period, and you can continue using your subscription until the   expiry date.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">After canceling your subscription, if your subscription has yet   to reach the expiry date, you can reactivate your canceled   subscription.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">This article shows you how to cancel and reactivate TestCloud   subscriptions.</p> 
+<div xmlns="http://www.w3.org/1999/xhtml" className="note important note_important"><span className="note__title">Important:</span> 
+  <ul className="ul"><li className="li"><p className="p">You must be the Owner or Billing Manager of your
+        Katalon Organization. Learn more about roles and permissions at <a className="xref j-external-link" href="https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html" target="_blank">Roles
+          and permissions</a>.</p></li></ul>
+</div>
+    
+
+## <a id="id_1" class="anchor_top_offset"/>Cancel subscriptions
+
+    
+      
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">Follow these steps:</p> 
+      
+<ol xmlns="http://www.w3.org/1999/xhtml" className="ol">   <li className="li">Sign in to <a className="xref j-external-link" href="https://testops.katalon.io/" target="_blank">Katalon       TestOps</a>.</li>   <li className="li">Select your organization.</li>   <li className="li">     <p className="p">Go to <strong className="ph b">Settings</strong> &gt; <strong className="ph b">Subscription         Management</strong>. In the <strong className="ph b">Subscription         Management</strong> section on the left sidebar, choose       <strong className="ph b">TestCloud</strong>.</p>     <p className="p">The <strong className="ph b">TestCloud Subscriptions</strong> page appears as       follows.</p>     <p className="p">       <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/cancel-tc-plan/TC-cancel-subscription.png")} alt="TestCloud cancel subs button" /><br /><br />     </p>   </li>   <li className="li">     <p className="p">Click <strong className="ph b">Cancel</strong>.</p>     <p className="p">The <strong className="ph b">Cancellation Warning</strong> box pops up.</p>     <p className="p">       <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/cancel-tc-plan/TC-cancellation-warning.png")} alt="TestCloud confirm cancel popup" /><br /><br />     </p>   </li>   <li className="li">     <p className="p">Click <strong className="ph b">Cancel Subscription</strong>.</p>   </li>   <li className="li">     <p className="p">Once you have canceled your subscription successfully, you can       see the cancellation date and time in the <strong className="ph b">Expiry         Date</strong> column on the <strong className="ph b">TestCloud Subscription</strong>       page.</p>   </li> </ol> 
+    
+  
+    
+
+## <a id="id_2" class="anchor_top_offset"/>Reactivate subscriptions
+
+    
+      
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">If your subscription has yet to reach the expiry date, you can   reactivate your subscription.</p> 
+      
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">Follow these steps:</p> 
+      
+<ol xmlns="http://www.w3.org/1999/xhtml" className="ol">   <li className="li">Sign in to <a className="xref j-external-link" href="https://testops.katalon.io/" target="_blank">Katalon       TestOps</a>.</li>   <li className="li">Select your organization.</li>   <li className="li">Go to <strong className="ph b">Settings</strong> &gt; <strong className="ph b">Subscription       Management</strong>. In the <strong className="ph b">Subscription       Management</strong> section on the left sidebar, choose     <strong className="ph b">TestCloud</strong>.</li>   <li className="li">     <p className="p">In the canceled subscription, click       <strong className="ph b">Reactivate</strong>.</p>     <p className="p">       <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/cancel-tc-plan/TC-Reactivate.png")} alt="TestCloud reactivate" /><br /><br />     </p>   </li>   <li className="li">     <p className="p">A <strong className="ph b">Confirmation</strong> dialog appears. Click       <strong className="ph b">Re-Activate</strong>.</p>     <p className="p">       <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/cancel-tc-plan/TC-Reactivate-confirmation.png")} alt="TestCloud reactivate popup" /><br /><br />     </p>   </li> </ol> 
+    
+  
