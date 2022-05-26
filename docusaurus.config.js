@@ -1419,12 +1419,12 @@ const config = {
         //           "/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview.html"
         //       ]
         //   },
-          {
-              to: "/docs/katalon-studio-enterprise/integration/katalon-api-keys",
-              from: [
-                  "/katalon-studio/docs/katalon-apikey-70.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/integration/katalon-api-keys",
+        //       from: [
+        //           "/katalon-studio/docs/katalon-apikey-70.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/integration/combine-katalon-studio-with-sap-scripting-tracker-for-windows",
               from: [
@@ -5437,12 +5437,12 @@ const config = {
                 "/katalon-studio/docs/configure-proxy.html"
             ]
         },
-        {
-            to: "/docs/products-and-licenses/katalon-studio-enterprise-and-runtime-engine-licenses/katalon-studio-vs-katalon-studio-enterprise-features",
-            from: [
-                "/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html"
-            ]
-        },
+        // {
+        //     to: "/docs/products-and-licenses/katalon-studio-enterprise-and-runtime-engine-licenses/katalon-studio-vs-katalon-studio-enterprise-features",
+        //     from: [
+        //         "/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html"
+        //     ]
+        // },
         {
             to: "/docs/products-and-licenses/katalon-studio-enterprise-and-runtime-engine-licenses/katalon-runtime-engine-devops-sunsetting",
             from: [
