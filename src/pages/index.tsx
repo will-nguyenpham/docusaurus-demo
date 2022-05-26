@@ -7,9 +7,6 @@ import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch } from 'react-instantsearch-hooks';
 
 import { Autocomplete, Hit } from '../components';
-import {
-  INSTANT_SEARCH_INDEX_NAME,
-} from '../constants';
 import { Hits } from '../widgets';
 import { PoweredBy } from '../components/PoweredBy';
 import styles from './index.module.scss';
