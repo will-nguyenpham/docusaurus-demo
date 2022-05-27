@@ -987,14 +987,14 @@ const config = {
                   "/katalon-studio/docs/time-capsule.html"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/known-issues",
-              from: [
-                  "/katalon-studio/docs/known-issues-limitations.html",
-                  "/x/yIMw/",
-                  "/katalon-studio/docs/known-issues-limitations/"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/known-issues",
+        //       from: [
+        //           "/katalon-studio/docs/known-issues-limitations.html",
+        //           "/x/yIMw/",
+        //           "/katalon-studio/docs/known-issues-limitations/"
+        //       ]
+        //   },
         //   {
         //       to: "/docs/katalon-studio-enterprise/error-management/troubleshooting/troubleshoot-web-automated-testing",
         //       from: [
@@ -1541,14 +1541,14 @@ const config = {
         //           "/katalon-analytics/docs/ks_upload_project_kt.html"
         //       ]
         //   },
-          {
-              to: "/docs/katalon-studio-enterprise/integration/testops-integration/testops-overview",
-              from: [
-                  "/katalon-studio/docs/testops-integration.html",
-                  "/katalon-studio/docs/execute_tests_periodically_on_remote_machines.html",
-                  "/katalon-studio/docs/view-execution-list.html"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/integration/testops-integration/testops-overview",
+        //       from: [
+        //           "/katalon-studio/docs/testops-integration.html",
+        //           "/katalon-studio/docs/execute_tests_periodically_on_remote_machines.html",
+        //           "/katalon-studio/docs/view-execution-list.html"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/integration/testrail-integration",
               from: [
@@ -2715,16 +2715,16 @@ const config = {
                   "/katalon-studio/docs/mobile-press-home/"
               ]
           },
-          {
-              to: "/docs/katalon-studio-enterprise/keywords/mobile-keywords/mobile-run-ios-app-in-background-and-wait",
-              from: [
-                  "/katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html",
-                  "/display/KD/%5BMobile%5D+Run+iOS+App+in+Background+and+Wait/",
-                  "/display/KD/%5BMobile%5D%20Run%20iOS%20App%20in%20Background%20and%20Wait/",
-                  "/x/pI0Y/",
-                  "/katalon-studio/docs/mobile-run-ios-app-in-background-and-wait/"
-              ]
-          },
+        //   {
+        //       to: "/docs/katalon-studio-enterprise/keywords/mobile-keywords/mobile-run-ios-app-in-background-and-wait",
+        //       from: [
+        //           "/katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html",
+        //           "/display/KD/%5BMobile%5D+Run+iOS+App+in+Background+and+Wait/",
+        //           "/display/KD/%5BMobile%5D%20Run%20iOS%20App%20in%20Background%20and%20Wait/",
+        //           "/x/pI0Y/",
+        //           "/katalon-studio/docs/mobile-run-ios-app-in-background-and-wait/"
+        //       ]
+        //   },
           {
               to: "/docs/katalon-studio-enterprise/test-design/web-test-design/web-test-objects/detecting-objects-with-xpath",
               from: [
@@ -6009,20 +6009,20 @@ const config = {
                 "/katalon-analytics/docs/kt-build.html"
             ]
         },
-        {
-            to: "/docs/katalon-testops/test-planning/releases",
-            from: [
-                 "/katalon-analytics/docs/kt-release.html",
-                 "/katalon-analytics/docs/release.html",
-                 "/katalon-analytics/docs/kt-jira-release.html"
-             ]
-        },
-        {
-            to: "/docs/katalon-testops/test-planning/manage-test-runs-by-releases",
-            from: [
-                 "/docs/katalon-testops/test-planning/releases",
-             ]
-        },
+        // {
+        //     to: "/docs/katalon-testops/test-planning/releases",
+        //     from: [
+        //          "/katalon-analytics/docs/kt-release.html",
+        //          "/katalon-analytics/docs/release.html",
+        //          "/katalon-analytics/docs/kt-jira-release.html"
+        //      ]
+        // },
+        // {
+        //     to: "/docs/katalon-testops/test-planning/manage-test-runs-by-releases",
+        //     from: [
+        //          "/docs/katalon-testops/test-planning/releases",
+        //      ]
+        // },
         {
             to: "/docs/katalon-testops/test-planning/schedules/schedule-test-runs",
             from: [
