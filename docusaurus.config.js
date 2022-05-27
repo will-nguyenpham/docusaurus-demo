@@ -64,10 +64,22 @@ const config = {
             position: 'left',
           },
           {
-            to: 'https://docs.katalon.com/javadoc/index.html',
+            type: 'dropdown',
             position: 'right',
             label: 'API Docs',
             className: 'bar-items-text',
+            items: [
+                {
+                    label: 'Katalon Studio',
+                    to: 'https://docs.katalon.com/javadoc/index.html',
+                    className: 'bar-items-text',
+                },
+                {
+                    label: 'Katalon TestOps',
+                    to: 'docs/katalon-testops/rest-api',
+                    className: 'bar-items-text',
+                },
+            ]
           },
           {
             to: 'https://forum.katalon.com/',
