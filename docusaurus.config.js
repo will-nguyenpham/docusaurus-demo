@@ -71,7 +71,7 @@ const config = {
             items: [
                 {
                     label: 'Katalon Studio',
-                    to: 'https://docs.katalon.com/javadoc/index.html',
+                    to: 'http://api-docs.katalon.com/',
                     className: 'bar-items-text',
                 },
                 {
@@ -269,6 +269,12 @@ const config = {
       // highlight-start
       {
         redirects: [
+          {
+            to: "/javadoc",
+            from: [
+                "/javadoc/index.html"
+            ]
+          },
           {
             to: "/docs/katalium-framework/get-started/in-other-ides",
             from: [
