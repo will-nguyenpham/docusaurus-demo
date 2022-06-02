@@ -192,7 +192,7 @@ const config = {
             items: [
               {
                 label: 'Help Center',
-                to: 'https://support.katalon.com/hc/en-us',
+                to: 'https://katalonsupport.force.com/katalonhelpcenter/s/',
               },
               {
                 label: 'Docs',
