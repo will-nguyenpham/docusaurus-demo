@@ -1147,7 +1147,7 @@ const config = {
                 ]
             },
             {
-                "to": "/docs/products-and-licenses/katalon-studio-enterprise-and-runtime-engine-licenses/license-overview",
+                "to": "/docs/",
                 "from": [
                     "/katalon-studio/docs/license.html"
                 ]
@@ -1787,13 +1787,13 @@ const config = {
                 ]
             },
             {
-                "to": "/docs/katalon-studio-enterprise/set-up-katalon-studio/migration-from-other-tools/seleniumtestngjunit-migration",
+                "to": "/docs/katalon-studio-enterprise/set-up-katalon-studio/migration-from-other-tools/seleniumtestngjunit-migration-to-katalon-studio",
                 "from": [
                     "/katalon-studio/docs/selenium-testng-junit-migration.html"
                 ]
             },
             {
-                "to": "/docs/katalon-studio-enterprise/set-up-katalon-studio/migration-from-other-tools/import-selenium-ide-v3-projects",
+                "to": "/docs/katalon-studio-enterprise/set-up-katalon-studio/migration-from-other-tools/import-selenium-ide-version-3-projects",
                 "from": [
                     "/katalon-studio/docs/import-selenium-ide.html"
                 ]
