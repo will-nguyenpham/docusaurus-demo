@@ -1147,7 +1147,7 @@ const config = {
                 ]
             },
             {
-                "to": "/docs/",
+                "to": "/docs/products-and-licenses/katalon-studio-enterprise-and-runtime-engine-licenses/license-overview",
                 "from": [
                     "/katalon-studio/docs/license.html"
                 ]
