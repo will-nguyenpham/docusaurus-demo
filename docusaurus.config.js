@@ -71,7 +71,7 @@ const config = {
             items: [
                 {
                     label: 'Katalon Studio',
-                    to: 'http://api-docs.katalon.com/',
+                    to: 'https://api-docs.katalon.com/?t=1',
                     className: 'bar-items-text',
                 },
                 {
@@ -6302,6 +6302,12 @@ const config = {
                 "to": "/docs/katalon-studio-enterprise/extend-katalon-studio/proof-of-concept/graphql-poc/ws-validate-graphql-request-body-against-a-graphql-schema-poc",
                 "from": [
                     "/katalon-studio/docs/ws-validate-graphql-body-schema.html"
+                ]
+            },
+            {
+                "to": "/docs/katalon-testops/visual-testing/use-testops-visual-testing",
+                "from": [
+                    "/katalon-analytics/docs/ks-visual-testing.html"
                 ]
             }
         ],
