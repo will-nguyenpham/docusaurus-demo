@@ -1,10 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// const env = require('dotenv').config();
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const dotenv = require('dotenv');
-// const env = dotenv.config().parsed;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -18,12 +18,12 @@ const config = {
   projectName: 'Katalon Docs',
   trailingSlash: false,
   customFields: {
-    "appId": dotenv.config().parsed.APPLICATION_ID,
-    "indexName": dotenv.config().parsed.INDEX_NAME,
-    "apiKey": dotenv.config().parsed.API_KEY_SEARCH,
-    // "appId": "UQL9BM5A25",
-    // "indexName": "docs",
-    // "apiKey": "143af23005cba6484bb0f68b4509db5f",
+    // "appId": process.env.APPLICATION_ID,
+    // "indexName": process.env.INDEX_NAME,
+    // "apiKey": process.env.API_KEY_SEARCH,
+    "appId": "UQL9BM5A25",
+    "indexName": "docs",
+    "apiKey": "143af23005cba6484bb0f68b4509db5f",
   },
   presets: [
     [
@@ -102,12 +102,12 @@ const config = {
         ],
       },
       algolia: {
-        appId: dotenv.config().parsed.APPLICATION_ID,
-        indexName: dotenv.config().parsed.INDEX_NAME,
-        apiKey: dotenv.config().parsed.API_KEY_SEARCH,
-        // appId: "UQL9BM5A25",
-        // indexName: "docs",
-        // apiKey: "143af23005cba6484bb0f68b4509db5f",
+        // appId: process.env.APPLICATION_ID,
+        // indexName: process.env.INDEX_NAME,
+        // apiKey: process.env.API_KEY_SEARCH,
+        appId: "UQL9BM5A25",
+        indexName: "docs",
+        apiKey: "143af23005cba6484bb0f68b4509db5f",
   
         // Optional: see doc section bellow
         contextualSearch: false,
