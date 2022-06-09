@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-// require('dotenv').config();
+const env = require('dotenv').config();
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -18,12 +18,12 @@ const config = {
   projectName: 'Katalon Docs',
   trailingSlash: false,
   customFields: {
-    // "appId": process.env.APPLICATION_ID,
-    // "indexName": process.env.INDEX_NAME,
-    // "apiKey": process.env.API_KEY_SEARCH,
-    "appId": "UQL9BM5A25",
-    "indexName": "docs",
-    "apiKey": "143af23005cba6484bb0f68b4509db5f",
+    "appId": process.env.APPLICATION_ID,
+    "indexName": process.env.INDEX_NAME,
+    "apiKey": process.env.API_KEY_SEARCH,
+    // "appId": "UQL9BM5A25",
+    // "indexName": "docs",
+    // "apiKey": "143af23005cba6484bb0f68b4509db5f",
   },
   presets: [
     [
@@ -71,7 +71,7 @@ const config = {
             items: [
                 {
                     label: 'Katalon Studio',
-                    to: 'https://api-docs.katalon.com/?t=1',
+                    to: 'https://api-docs.katalon.com/overview-summary.html',
                     className: 'bar-items-text',
                 },
                 {
@@ -102,12 +102,12 @@ const config = {
         ],
       },
       algolia: {
-        // appId: process.env.APPLICATION_ID,
-        // indexName: process.env.INDEX_NAME,
-        // apiKey: process.env.API_KEY_SEARCH,
-        appId: "UQL9BM5A25",
-        indexName: "docs",
-        apiKey: "143af23005cba6484bb0f68b4509db5f",
+        appId: process.env.APPLICATION_ID,
+        indexName: process.env.INDEX_NAME,
+        apiKey: process.env.API_KEY_SEARCH,
+        // appId: "UQL9BM5A25",
+        // indexName: "docs",
+        // apiKey: "143af23005cba6484bb0f68b4509db5f",
   
         // Optional: see doc section bellow
         contextualSearch: false,
