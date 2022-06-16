@@ -276,6 +276,20 @@ const config = {
                 ]
             },
             {
+                to: "/docs/katalium-framework/overview",
+                from: [
+                    "/docs/katalium-framework/",
+                    "/docs/katalium-framework"
+                ]
+            },
+            {
+                to: "/docs/katalium-server/overview",
+                from: [
+                    "/docs/katalium-server/",
+                    "/docs/katalium-server"
+                ]
+            },
+            {
                 to: "/docs",
                 from: [
                     "/katalon-studio/docs/index.html",
@@ -653,7 +667,8 @@ const config = {
                     "/katalon-analytics/docs/create-plan.html",
                     "/katalon-analytics/docs/view-ci-plans.html",
                     "/katalon-analytics/docs/grid-testops-cloud.html",
-                    "/katalon-analytics/docs/kt-remote-execution.html"
+                    "/katalon-analytics/docs/kt-remote-execution.html",
+                    "/katalon-studio/docs/schedule-tests-to-execute.html"
                 ]
             },
             {
