@@ -278,14 +278,14 @@ const config = {
             {
                 to: "/docs/katalium-framework/overview",
                 from: [
-                    "/docs/katalium-framework/",
+                    "/docs/katalium-framework/index.html",
                     "/docs/katalium-framework"
                 ]
             },
             {
                 to: "/docs/katalium-server/overview",
                 from: [
-                    "/docs/katalium-server/",
+                    "/docs/katalium-server/index.html",
                     "/docs/katalium-server"
                 ]
             },
