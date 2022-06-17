@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import algoliasearch from 'algoliasearch/lite';
-import { InstantSearch } from 'react-instantsearch-hooks';
+import { InstantSearch, Configure } from 'react-instantsearch-hooks';
 
 import { Autocomplete, Hit } from '../components';
 import { Hits } from '../widgets';
@@ -28,6 +28,7 @@ function search(hide, setHide, searchClient, siteConfig) {
         indexName={siteConfig.customFields.indexName}
         routing
       >
+        <Configure clickAnalytics />
         <Autocomplete
           searchClient={searchClient}
           placeholder="Search documentation..."
