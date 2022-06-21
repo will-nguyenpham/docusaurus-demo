@@ -5,6 +5,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, Configure } from 'react-instantsearch-hooks';
+import insightsClient from 'search-insights';
+import { createAlgoliaInsightsPlugin } from '@algolia/autocomplete-plugin-algolia-insights';
 
 import { Autocomplete, Hit } from '../components';
 import { Hits } from '../widgets';
@@ -20,7 +22,7 @@ function HomepageHeader() {
   );
 }
 
-function search(hide, setHide, searchClient, siteConfig) {
+function search(hide, setHide, searchClient, siteConfig, algoliaInsightsPlugin) {
   return (
     <div style={{ width: "45%", position: "absolute", left: 0, right: 0, margin: "auto", marginTop: "-41px" }}>
       <InstantSearch
@@ -31,6 +33,7 @@ function search(hide, setHide, searchClient, siteConfig) {
         <Configure clickAnalytics />
         <Autocomplete
           searchClient={searchClient}
+          algoliaInsightsPlugin={algoliaInsightsPlugin}
           placeholder="Search documentation..."
           detachedMediaQuery="none"
           openOnFocus
@@ -51,11 +54,14 @@ function search(hide, setHide, searchClient, siteConfig) {
 }
 
 var searchClient;
+var algoliaInsightsPlugin;
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   if (searchClient == undefined) {
     searchClient = algoliasearch(siteConfig.customFields.appId, siteConfig.customFields.apiKey);
+    insightsClient('init', { appId: siteConfig.customFields.appId, apiKey: siteConfig.customFields.apiKey });
+    algoliaInsightsPlugin = createAlgoliaInsightsPlugin({ insightsClient });
   }
   const [hide, setHide] = useState(true);
 
@@ -67,7 +73,7 @@ export default function Home(): JSX.Element {
         }
       }}>
         <HomepageHeader />
-        {search(hide, setHide, searchClient, siteConfig)}
+        {search(hide, setHide, searchClient, siteConfig, algoliaInsightsPlugin)}
         <main>
           <HomepageFeatures />
         </main>

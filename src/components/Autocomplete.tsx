@@ -23,6 +23,7 @@ import styles from './styles.module.scss';
 
 type AutocompleteProps = Partial<AutocompleteOptions<BaseItem>> & {
   searchClient: SearchClient;
+  algoliaInsightsPlugin: any,
   className?: string;
   hideResult: (boolean) => void;
 };
@@ -33,6 +34,7 @@ type SetInstantSearchUiStateOptions = {
 
 export function Autocomplete({
   searchClient,
+  algoliaInsightsPlugin,
   className,
   hideResult,
   ...autocompleteProps
@@ -93,6 +95,7 @@ export function Autocomplete({
       render({ children }, root) {
         render(children as ReactElement, root);
       },
+      plugins: [algoliaInsightsPlugin],
     });
 
     return () => autocompleteInstance.destroy();
