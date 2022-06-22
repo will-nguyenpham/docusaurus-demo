@@ -1,0 +1,84 @@
+---
+id: "b0abf2d0-e2f0-11ec-a2dc-0242fe3e4a3f"
+title: "Record Web Utility"
+slug: "katalon-studio-enterprise/test-design/web-test-design/web-record-and-spy-utilities/record-web-utility"
+hide_title: true
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+    
+
+# <a id="id" class="anchor_top_offset"/><a id="ariaid-title1" class="anchor_top_offset"/>Record Web Utility
+
+    
+      
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">Test recording is the easiest way for a tester to create an   automation test script. This mean you just need to manually   interact with your Web site and perform all the desired actions as   a real user while the Katalon Recorder Utility record them.</p> 
+      
+<div xmlns="http://www.w3.org/1999/xhtml" className="note note note_note"><span className="note__title">Note:</span> 
+  <p className="p">From <strong className="ph b">version 7.7+</strong>, Katalon Studio supports
+    adding Mouse Over and Verification steps by a right-click on an
+    element in the AUT when recording with Chrome, Edge
+    (Chromium-based), and Firefox.</p>
+</div>
+      
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">You can create a new test script or edit an existing test script   by using the Katalon Recorder Utility. This manual includes a   tutorial of how to record test scripts and a brief introduction to   each panel of the Katalon Web Recorder.</p> 
+    
+  
+
+## <a id="id_1" class="anchor_top_offset"/>Record a New Test Case
+
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">To record a new test case, please do as follows:</p> 
+<ol xmlns="http://www.w3.org/1999/xhtml" className="ol"><li className="li">     <p className="p">Click on the <strong className="ph b">Web Record Utility</strong>       icon to open the Web Recorder.</p>   </li><li className="li">     <p className="p">Enter a URL of your web application. For example,       <a className="xref j-external-link" href="https://katalon-demo-cura.herokuapp.com/" target="_blank">https://katalon-demo-cura.herokuapp.com/</a>            </p>   </li><li className="li">     <p className="p">Select a browser to start recording (either Chrome or Firefox       from '<strong className="ph b">New Browser</strong>' type is recommended). You can       see the very first test step named "Open Browser" is recorded.</p>     <p className="p">Katalon Studio's default browser is Chrome and its icon is       displayed in the top right corner. If you prefer other supported       browsers, you can change the default browser in       <strong className="ph b">Project/Settings/Execution/Default execution</strong>, or       click on the drop-down button to select your preferred one:</p>     <p className="p">       <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/browser.png")} width={600} /><br /><br />     </p>     <table className="table"><caption /><thead className="thead"><tr className><th className="entry anchor_top_offset" id="id_1__entry__1">Type</th><th className="entry anchor_top_offset" id="id_1__entry__2">Description</th><th className="entry anchor_top_offset" id="id_1__entry__3">Note</th></tr></thead><tbody className="tbody"><tr className><td className="entry" headers="id_1__entry__1 id_1__entry__2 id_1__entry__3 ">New Browsers</td><td className="entry" headers="id_1__entry__1 id_1__entry__2 id_1__entry__3 ">Start a new browser</td><td className="entry" headers="id_1__entry__1 id_1__entry__2 id_1__entry__3 ">             <strong className="ph b">Supported browsers:</strong> Firefox/ Chrome/ Internet Explorer (only on Windows)/ Microsoft Edge (Chromium) (from version 7.5.10 onwards)</td></tr><tr className><td className="entry" headers="id_1__entry__1 id_1__entry__2 id_1__entry__3 ">Active Browsers</td><td className="entry" headers="id_1__entry__1 id_1__entry__2 id_1__entry__3 ">Use the current browser (only Chrome)</td><td className="entry" headers="id_1__entry__1 id_1__entry__2 id_1__entry__3 ">Katalon Studio will install <a className="xref j-external-link" href="https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid" target="_blank">Katalon Recorder</a> as an add-on to help with             recording for this type of browser.<p className="p"><strong className="ph b">Supported browsers</strong>: Chrome/ Firefox</p></td></tr></tbody></table>   </li><li className="li">     <p className="p">A browser instance is launched automatically. Wait for your web       page to load and interact with its elements.</p>   </li><li className="li">     <p className="p">The browser highlights and displays       its correspondent XPath (on the top of the page) when you       hover that element.</p>     <div className="note tip note_tip"><span className="note__title">Tip:</span>        <p className="p">You can use hotkey to capture objects (pressing the         combination of <code className="ph codeph">&lt;Alt + back quote&gt;</code>). The captured         object will be highlighted with a green border.</p>     </div>     <p className="p">       <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/xpath.png")} width={850} /><br /><br />     </p>   </li><li className="li">     <p className="p">Interact with the web page. In this example, try signing in with       the provided credentials. The recorded steps will be generated       automatically in <strong className="ph b">Recorded Actions</strong>. When you type       in a <strong className="ph b">Password</strong> field, Katalon Web Recorder uses '<a className="xref" href="/docs/katalon-studio-enterprise/keywords/web-ui-keywords/webui-set-encrypted-text">Set Encrypted         Text</a>' keyword automatically. The input's value will be       encrypted to ensure security.</p>     <p className="p">       <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-10.05.19.png")} width={850} /><br /><br />     </p>   </li><li className="li">     <p className="p">Stop recording and save your script.</p>     <p className="p">During your recording, Katalon captures the objects that you       have interacted with. When saving test script, <strong className="ph b">Katalon         Web Recorder</strong> exports a list of objects used in the test       case. Choose a directory you want your test objects to reside to       continue.</p>   </li></ol> 
+
+## <a id="id_2" class="anchor_top_offset"/>Record Using Existing Test Case
+
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">With the new Web Recorder, users can be more productive while   modifying existing test cases. Instead of creating a brand new test   case whenever there are changes to the UI, risks of overlooking how   new changes might effect existing features are now minimized.</p> 
+<ol xmlns="http://www.w3.org/1999/xhtml" className="ol"><li className="li">Open any existing test case to continue recording.</li><li className="li">     <p className="p">Click on the <strong className="ph b">Record</strong> icon to open Web       Recorder.</p>     <p className="p">All the existing test steps and <a className="xref" href="/docs/katalon-studio-enterprise/test-execution/data-driven-testing/types-of-variables">Test         Case variables</a> will be imported to the <strong className="ph b">Recorded         Actions</strong> and <strong className="ph b">Variables</strong> tabs in Web       Recorder respectively. You won't need to repeat the test steps       having been recorded.</p>     <p className="p">       <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.23.30.png")} width={850} /><br /><br />     </p>   </li><li className="li">     <p className="p">Interact with the AUT.</p>   </li></ol> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">When saving your script, Katalon Studio automatically   detects similar existing objects in <strong className="ph b">Objects     Repository</strong> and asks you for further action to optimize   Object Repository.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">   <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/image2018-6-26-143A183A9.png")} width={500} /><br /><br /> </p> 
+
+## <a id="id_3" class="anchor_top_offset"/>Validate UI elements
+
+<div xmlns="http://www.w3.org/1999/xhtml" className="note note note_note"><span className="note__title">Note:</span> 
+  <p className="p">From <strong className="ph b">version 7.7+</strong>, Katalon supports adding Mouse Over and Verification Steps by a right-click on an element displayed in the AUT when recording with Chrome, Edge (Chromium-based), and Firefox.</p>
+</div>
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">Given that you enter incorrect username or password, you can validate if the website displays an error message indicating a failed login attempt.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p"> <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/validate-UI-elements.png")} width={850} /><br /><br /> </p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">Or you can verify if the next screen after a successful login is "right" by verifying if a specific UI element is present.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p"> <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Validate-2.png")} alt={85} /><br /><br /> </p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">In the drop-down list of the <strong className="ph b">Run</strong> button, you can find some Run options. The two of them labeled with "Debug" are advanced options for validating recorded script, and saving you from running all test steps over and over again if you have a Katalon Studio Enterprise license:</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p"> <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction-to-web-testing/77.png")} /><br /><br /> </p> 
+<ul xmlns="http://www.w3.org/1999/xhtml" className="ul"><li className="li"> <strong className="ph b">Run all steps</strong>: Execute ALL steps that are enabled on Web Recorder</li><li className="li">     <p className="p"> <strong className="ph b">Debug: Run selected steps</strong>: Execute only one or many selected steps.</p>     <p className="p">You can select multiple steps using either Ctrl or Shift key. The selected steps will be highlighted (e.g. steps #2, #6, #9 and #11 are selected for running). <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.45.48.png")} /><br /><br />     </p>   </li><li className="li">     <p className="p"> <strong className="ph b">Debug: Run from selected step</strong>: Execute the currently selected step and all the steps after the selected one (e.g. run the test from step #4. </p>     <p className="p"><img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.51.07.png")} width={600} /><br /><br />      </p>   </li></ul> 
+    
+
+## <a id="id_4" class="anchor_top_offset"/>Katalon Web Recorder Utility's Components
+
+    
+                  
+
+### <a id="id_5" class="anchor_top_offset"/>Recorded Actions
+
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">Available actions in Katalon Web Recorder Utility is the same as   Katalon Studio's built-in keywords. You can add any action, call another test case,   and/or use Custom Keywords.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">   <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.30.37.png")} width={500} /><br /><br /> </p> 
+
+### <a id="id_6" class="anchor_top_offset"/>Captured Objects
+
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">During your recording, Katalon captures the objects that you   have interacted with. When saving test script, <strong className="ph b">Katalon     Web Recorder</strong> exports a list of objects used in the test   case. <a className="xref" href="/docs/katalon-studio-enterprise/keywords/web-ui-keywords/webui-accept-alert">Learn more about Web UI test     objects</a>.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">   <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/captured-objects.png")} width={450} /><br /><br /> </p> 
+
+### <a id="id_7" class="anchor_top_offset"/>Variables
+
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">In Katalon Web Recorder, you can manage the <a className="xref" href="/docs/katalon-studio-enterprise/test-execution/data-driven-testing/types-of-variables">variables</a> directly related to your   recording.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">   <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/var.png")} width={600} /><br /><br /> </p> 
+
+### <a id="id_8" class="anchor_top_offset"/>Logs
+
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">When running the recorded actions, you can investigate the   execution by looking at its real-time detailed logs. Execution logs   are displayed on the <strong className="ph b">Logs</strong> tab.</p> 
+<p xmlns="http://www.w3.org/1999/xhtml" className="p">   <img className="image" src={useBaseUrl("https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.54.27.png")} width={400} /><br /><br /> </p> 
+<div xmlns="http://www.w3.org/1999/xhtml" className="p">For advanced features such as branching, looping or validation,
+  you can refer to this article: <a className="xref" href="/docs/katalon-studio-enterprise/create-tests-and-projects/manage-projects/statements/statements-overview">Control
+    Statements</a>.
+  <div className="note note note_note"><span className="note__title">Note:</span> 
+    <p className="p">Learn more with our Katalon Academy course: <a className="xref j-external-link" href="https://academy.katalon.com/courses/record-playback-testing/?utm_source=kat_docs&utm_medium=record_web_utility" target="_blank">Create
+        Automated Tests with Record &amp; Playback</a>.</p>
+  </div></div>
