@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import algoliasearch from 'algoliasearch/lite';
-import { InstantSearch, Configure } from 'react-instantsearch-hooks';
+import { InstantSearch } from 'react-instantsearch-hooks';
 import insightsClient from 'search-insights';
 import { createAlgoliaInsightsPlugin } from '@algolia/autocomplete-plugin-algolia-insights';
 
-import { Autocomplete, Hit } from '../components';
-import { Hits } from '../widgets';
-import { PoweredBy } from '../components/PoweredBy';
+import { Autocomplete } from '../components';
 import styles from './index.module.scss';
 
 function HomepageHeader() {
@@ -22,7 +20,7 @@ function HomepageHeader() {
   );
 }
 
-function search(hide, setHide, searchClient, siteConfig, algoliaInsightsPlugin) {
+function search(searchClient, siteConfig, algoliaInsightsPlugin) {
   return (
     <div style={{ width: "45%", position: "absolute", left: 0, right: 0, margin: "auto", marginTop: "-41px" }}>
       <InstantSearch
@@ -30,24 +28,15 @@ function search(hide, setHide, searchClient, siteConfig, algoliaInsightsPlugin) 
         indexName={siteConfig.customFields.indexName}
         routing
       >
-        <Configure clickAnalytics />
+        {/* <Configure clickAnalytics /> */}
         <Autocomplete
           searchClient={searchClient}
           algoliaInsightsPlugin={algoliaInsightsPlugin}
           placeholder="Search documentation..."
           detachedMediaQuery="none"
           openOnFocus
-          hideResult={isHide => setHide(isHide)}
+          indexName={siteConfig.customFields.indexName}
         />
-
-        <div className={styles.searchResult} hidden={hide}>
-          <div className={styles.headerSearch}>
-            <p className={styles.titleSearch}>Documentation</p>
-            <PoweredBy />
-          </div>
-          <div style={{ height: "1px", background: "#D9E2EC", marginBottom: "20px", marginRight: "26px" }}/>
-          <Hits hitComponent={Hit} />
-        </div>
       </InstantSearch>
     </div>
   );
@@ -63,17 +52,12 @@ export default function Home(): JSX.Element {
     insightsClient('init', { appId: siteConfig.customFields.appId, apiKey: siteConfig.customFields.apiKey });
     algoliaInsightsPlugin = createAlgoliaInsightsPlugin({ insightsClient });
   }
-  const [hide, setHide] = useState(true);
 
   return (
     <Layout>
-      <div onClick={(event) => {
-        if ((event.target as Element).value == undefined) {
-          setHide(true);
-        }
-      }}>
+      <div>
         <HomepageHeader />
-        {search(hide, setHide, searchClient, siteConfig, algoliaInsightsPlugin)}
+        {search(searchClient, siteConfig, algoliaInsightsPlugin)}
         <main>
           <HomepageFeatures />
         </main>
