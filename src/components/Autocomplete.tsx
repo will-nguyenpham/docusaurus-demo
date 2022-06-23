@@ -94,7 +94,7 @@ export function Autocomplete({
         Fragment,
       },
       render({ children }, root) {
-        const view = ( <div className={styles.searchResult} style={{ height: "25em" }}>
+        const view = ( <div className={styles.searchResult} style={{ height: "25em", paddingBottom: "50px" }}>
           <div className={styles.headerSearch}>
             <p className={styles.titleSearch}>Documentation</p>
             <PoweredBy />
