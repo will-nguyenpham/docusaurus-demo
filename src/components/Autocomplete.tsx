@@ -104,6 +104,7 @@ export function Autocomplete({
         </div>)
         render(view as ReactElement, root);
       },
+      plugins: [algoliaInsightsPlugin],
       getSources({ query }) {
         return [
           {
@@ -126,7 +127,6 @@ export function Autocomplete({
             getItemInputValue({ item }) {
               return item.query;
             },
-            plugins: [algoliaInsightsPlugin],
             templates: {
               item({ item }) {
                 return (
