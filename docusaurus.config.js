@@ -114,11 +114,11 @@ const config = {
 
         // Optional: Algolia search parameters
         searchParameters: {
-            hitsPerPage: 30,
-            // page: 0,
+            hitsPerPage: 20,
+            clickAnalytics: true,
+            analytics: true,
+            advancedSyntax: true,
         },
-
-        hitsPerPage: 30,
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
