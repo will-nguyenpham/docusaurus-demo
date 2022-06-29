@@ -62,9 +62,11 @@ export default function NavbarNavLink({
     <Link
       to={toUrl}
       onClick={() => { 
-        analytics.track('startnow', {
-          title: 'Start Now'
-        });
+        if (toUrl === 'https://www.katalon.com/download/') {
+          analytics.track('startnow', {
+            title: 'Start Now'
+          });
+        }
        }}
       isNavLink
       activeClassName={
