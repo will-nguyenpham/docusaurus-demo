@@ -63,7 +63,7 @@ export default function NavbarNavLink({
       to={toUrl}
       onClick={() => { 
         if (toUrl === 'https://www.katalon.com/download/') {
-          analytics.track('startnow', {
+          analytics.track('conversion', {
             title: 'Start Now'
           });
         }
