@@ -31,9 +31,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/will-nguyenpham/docusaurus-demo/',
+            sidebarPath: require.resolve('./sidebars.js'),
+            // Please change this to your repo.
+            editUrl: 'https://github.com/will-nguyenpham/docusaurus-demo/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
@@ -445,9 +445,10 @@ const config = {
                 ]
             },
             {
-                "to": "/docs/katalon-recorder/get-your-job-done/export-scenarios/export-automation-scripts-to-other-frameworks",
+                "to": "/docs/katalon-recorder/get-your-job-done/export-scenarios/export-katalon-recorder-scripts-to-other-frameworks",
                 "from": [
-                    "/katalon-recorder/docs/export-test-script.html"
+                    "/katalon-recorder/docs/export-test-script.html",
+                    "/docs/katalon-recorder/get-your-job-done/export-scenarios/export-automation-scripts-to-other-frameworks"
                 ]
             },
             {

@@ -101,6 +101,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <div xmlns="http://www.w3.org/1999/xhtml" className="note note note_note"><span className="note__title">Note:</span> 
   <p className="p">For real-time monitoring and better reporting capabilities,
     consider integrating your project with Katalon TestOps. To learn
-    more about TestOps integration, you can refer to this document: <a className="xref" href="/docs/katalon-recorder/get-your-job-done/execution-report/view-execution-reports-in-testops#id_1">View
+    more about TestOps integration, you can refer to this document: <a className="xref" href="#">View
       execution reports in TestOps</a>.</p>
 </div>
