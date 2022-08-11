@@ -20,6 +20,7 @@
   color: #000;
 }
 
+/* Enable dark theme for steps headings */
 html[data-theme='dark'] .prereq::before,
 html[data-theme='dark'] .postreq::before,
 html[data-theme='dark'] .steps::before,
