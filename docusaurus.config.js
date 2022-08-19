@@ -86,7 +86,7 @@ const config = {
                 },
                 {
                     label: 'Katalon TestOps',
-                    to: 'docs/katalon-testops/rest-api',
+                    to: 'https://analytics.katalon.com/swagger-ui/index.html#/',
                     className: 'bar-items-text',
                 },
             ]
