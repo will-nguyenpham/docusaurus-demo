@@ -120,7 +120,7 @@ const config = {
         apiKey: "143af23005cba6484bb0f68b4509db5f",
   
         // Optional: see doc section bellow
-        contextualSearch: false,
+        contextualSearch: true,
 
         // Optional: Algolia search parameters
         searchParameters: {
