@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState} from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch } from 'react-instantsearch-hooks';
 import insightsClient from 'search-insights';
 import { createAlgoliaInsightsPlugin } from '@algolia/autocomplete-plugin-algolia-insights';
-
 import { Autocomplete } from '../components';
 import styles from './index.module.scss';
+import Link from '@docusaurus/Link';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -44,6 +43,23 @@ function search(searchClient, siteConfig, algoliaInsightsPlugin) {
 var searchClient;
 var algoliaInsightsPlugin;
 
+function hideNotiBanner(setHideNoti) {
+  setHideNoti(true);
+}
+
+function createNotiBanner(setHideNoti) {
+  const Svgwarning = require('@site/static/img/ic_warning.svg').default;
+  const Svgclose = require('@site/static/img/ic_close.svg').default;
+  return (<div className={styles.viewParentNoti}>
+     <div className={styles.notification}>
+      <Svgwarning />
+      <p className={styles.text}>We’re making changes to our server and Data Center products.</p>
+      <Link className={styles.link}>Learn more</Link>
+    </div>
+    <button className={styles.close} onClick={() => hideNotiBanner(setHideNoti)}><Svgclose/></button>
+  </div>);
+}
+
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   if (searchClient == undefined) {
@@ -52,9 +68,12 @@ export default function Home(): JSX.Element {
     algoliaInsightsPlugin = createAlgoliaInsightsPlugin({ insightsClient });
   }
 
+  const [hideNoti, setHideNoti] = useState(false);
+
   return (
     <Layout>
       <div>
+        {!hideNoti && createNotiBanner(setHideNoti)}
         <HomepageHeader />
         {search(searchClient, siteConfig, algoliaInsightsPlugin)}
         <main>
