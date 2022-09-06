@@ -20,6 +20,11 @@
   src: url("@site/static/FontAwesome.otf") format("truetype");
 }
 
+@font-face {
+  font-family: Inter;
+  src: url("@site/static/Inter.ttf") format("truetype");
+}
+
 :root {
   --ifm-color-primary: #0077ED;
   --ifm-color-primary-dark: #006BD5;
@@ -30,6 +35,7 @@
   --ifm-color-primary-lightest: #32BEFF;
   --ifm-code-font-size: 95%;
   --ifm-menu-color: #243B53;
+  // --ifm-font-family-base: Inter;
   --aa-primary-color-rgb: #486581 !important;
   --aa-scrollbar-track-background-color-rgb: 255, 255, 255 !important;
   --aa-scrollbar-thumb-background-color-rgb: 127, 127, 127 !important;
@@ -48,6 +54,7 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: #32BEFF;
   --ifm-color-primary-lightest: #7FD6FF;
   --ifm-menu-color: white;
+  // --ifm-font-family-base: Inter;
   --aa-primary-color-rgb: #F5F6F7;
   --aa-scrollbar-track-background-color-rgb: 68, 70, 75 !important;
   --aa-scrollbar-thumb-background-color-rgb: 162, 163, 165 !important;
