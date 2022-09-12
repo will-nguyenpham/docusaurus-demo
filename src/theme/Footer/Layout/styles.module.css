@@ -34,14 +34,28 @@
 }
 
 .footerCompanyText {
-  color: #849DAD;
+  color: #6A6A6A;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 35px;
+}
+
+html[data-theme='dark'] .footerCompanyText {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 35px;
+}
+
+.footerFollowusText {
+  color: #6A6A6A;
   font-size: 13px;
   line-height: 23px;
   margin-top: 35px;
 }
 
-.footerFollowusText {
-  color: #596778;
+html[data-theme='dark'] .footerFollowusText {
+  color: #FFFFFF;
   font-size: 13px;
   line-height: 23px;
   margin-top: 35px;
@@ -63,13 +77,13 @@
 
 .footerSocialImg {
   display: flex;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 5px;
 }
 
 .footerCopyRight {
-  color: #849DAD;
-  font-size: 13px;
+  color: #9A9A9A;
+  font-size: 14px;
   line-height: 24px;
   margin-top: 60px;
 }
@@ -80,13 +94,26 @@
 }
 
 .footerTermText {
-  color: #849DAD;
-  font-size: 13px;
+  color: #6A6A6A;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+html[data-theme='dark'] .footerTermText {
+  color: #FFFFFF;
+  font-size: 14px;
   line-height: 24px;
 }
 
 .footerPrivacyText {
-  color: #849DAD;
+  color: #6A6A6A;
+  font-size: 13px;
+  line-height: 24px;
+  margin-left: 30px;
+}
+
+html[data-theme='dark'] .footerPrivacyText {
+  color: #FFFFFF;
   font-size: 13px;
   line-height: 24px;
   margin-left: 30px;
@@ -98,19 +125,31 @@
 
 .logo {
   margin-left: 0;
+  margin-top: 3px;
+  width: 16px;
+  height: 24px;
 }
 
 .logoText {
   margin: 0;
   margin-left: 10px;
   font-size: 20px;
-  font-weight: 500;
+  font-family: Inter-SemiBold;
+  color: #000000;
+}
+
+html[data-theme='dark'] .logoText {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Inter-SemiBold;
+  color: #FFFFFF;
 }
 
 html[data-theme='dark'] .footerSocialFBImg path {
-  fill: white;
+  fill: #F8F8F8;
 }
 
 html[data-theme='dark'] .footerSocialImg path {
-  fill: white;
+  fill: #F8F8F8;
 }

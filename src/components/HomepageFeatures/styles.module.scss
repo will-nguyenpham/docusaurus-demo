@@ -15,7 +15,7 @@
   flex-direction: row;
   display: flex;
   align-items: center;
-  background-color: #F0F4F8;
+  background-color: #F2F2F2;
   width: 252px;
   margin: auto;
   margin-top: 24px;
@@ -28,7 +28,7 @@ html[data-theme='dark'] .featuresItem {
   flex-direction: row;
   display: flex;
   align-items: center;
-  background-color: #36373B;
+  background-color: #282828;
   width: 252px;
   margin: auto;
   margin-top: 24px;
@@ -60,7 +60,9 @@ html[data-theme='dark'] .featureSvg {
   color: #09223B;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
+  // font-weight: 500;
+  font-style: normal;
+  font-family: Inter-Medium;
 }
 
 html[data-theme='dark'] .featuresText {
@@ -74,9 +76,9 @@ html[data-theme='dark'] .featuresText {
 }
 
 .featuresItem:hover {
-  background-color: #D9E2EC;
+  background-color: #E5E5E5;
 }
 
 html[data-theme='dark'] .featuresItem:hover {
-  background-color: #5E6267;
+  background-color: #6A6A6A;
 }

@@ -1,26 +1,16 @@
 .formContainer {
     height: 54px;
-    border: 20px !important;
     border-radius: 14px !important;
     background-color: white;
+    border: 1px solid #D6D6D6 !important;
     color: black !important;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-    ::placeholder {
-        color: #486581;
-        opacity: 0.3;
-    }
 }
 
 html[data-theme='dark'] .formContainer {
     height: 54px;
     border: 20px !important;
     border-radius: 14px !important;
-    background-color: #5E6267;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
-    ::placeholder {
-        color: #F5F6F7;
-        opacity: 0.3;
-    }
+    background-color: #6A6A6A;
 }
 
 .inputSearch {

@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import ThemedImage from '@theme/ThemedImage';
 import styles from './styles.module.css';
 
 function FooterLeftView(copyright) {
@@ -8,10 +9,18 @@ function FooterLeftView(copyright) {
   const SvgTwitter = require('@site/static/img/ic_twitter.svg').default;
   const SvgLinkedin = require('@site/static/img/ic_in.svg').default;
   const SvgYoutube = require('@site/static/img/ic_youtube.svg').default;
+  const SvgLogo = require('@site/static/img/logo.svg').default;
   return (
     <div className={styles.footerContainerLeft}>
       <div className={styles.logoContainer}>
-         <img className={styles.logo} src={require('@site/static/img/logo_katalon.png').default}/>
+         {/* <SvgLogo className={styles.logo}/> */}
+         <ThemedImage
+            className={styles.logo}
+            sources={{
+              light: useBaseUrl('/img/logo.svg'),
+              dark: useBaseUrl('/img/white_logo.svg'),
+            }}
+          />
          <p className={styles.logoText}>Katalon</p>
       </div>
       <p className={styles.footerCompanyText}>1776 Peachtree Street NW, Suite 200N, Atlanta, GA 30309<br/>

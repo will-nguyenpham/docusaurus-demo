@@ -61,6 +61,7 @@ const config = {
         logo: {
           alt: 'Katalon Docs Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/white_logo.svg',
         },
         items: [
           {
@@ -72,6 +73,7 @@ const config = {
             position: 'left',
             // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
             dropdownActiveClassDisabled: true,
+            className: 'version-items-text',
           },
           {
             type: 'dropdown',
@@ -172,6 +174,11 @@ const config = {
             title: 'SOLUTIONS',
             items: [
               {
+                // html: `<div style="display: flex; flex-direction: row;"><a href="https://katalon.com/visual-testing" class="footer__link-item" target="_blank">Visual Testing</a><img src="https://katalon-prod-asset.s3.amazonaws.com/themes/katalon_4/images/pages/pricing_landing_page/new_july_2022/new_mark.svg" alt="Visual Testing" class="new_mark_icon" style="margin: -3px 0 0 5px"></div>`
+                label: 'Visual Testing',
+                to: 'https://katalon.com/visual-testing',
+              },
+              {
                 label: 'Web Testing',
                 to: 'https://katalon.com/web-testing',
               },
@@ -191,42 +198,37 @@ const config = {
                 label: 'Integrations',
                 to: 'https://katalon.com/integrations',
               },
-              {
-                label: 'Methodologies',
-                to: 'https://katalon.com/methodologies',
-              },
             ],
           },
           {
             title: 'SUPPORT',
             items: [
               {
-                label: 'Help Center',
-                to: 'https://katalonsupport.force.com/katalonhelpcenter/s/',
-              },
-              {
-                label: 'Docs',
-                to: '/',
+                label: 'Blog',
+                to: 'https://katalon.com/resources-center/blog',
               },
               {
                 label: 'Community',
                 to: 'https://forum.katalon.com/',
               },
               {
-                label: 'Repository',
-                to: 'https://github.com/katalon-studio/katalon-studio',
+                label: 'Docs',
+                to: '/',
               },
               {
-                label: 'Webinars',
-                to: 'https://katalon.com/webinars',
+                label: 'Help Center',
+                to: 'https://katalonsupport.force.com/katalonhelpcenter/s/',
               },
               {
                 label: 'Training',
                 to: 'https://academy.katalon.com/',
               },
+              {
+                label: 'Webinars',
+                to: 'https://katalon.com/webinars',
+              },             
             ],
           },
-
           {
             title: 'COMPANY',
             items: [
@@ -235,20 +237,20 @@ const config = {
                 to: 'https://katalon.com/about-us/',
               },
               {
-                label: 'Blog',
-                to: 'https://katalon.com/resources-center/blog',
+                label: 'Careers',
+                to: 'https://apply.workable.com/katalon/',
+              },
+              {
+                label: 'News',
+                to: 'https://katalon.com/resources-center/blog/tag/news',
               },
               {
                 label: 'Partners',
                 to: 'https://katalon.com/partners/',
               },
               {
-                label: 'Customer Stories',
+                label: 'Success Stories',
                 to: 'https://katalon.com/case-studies/',
-              },
-              {
-                label: 'Careers',
-                to: 'https://apply.workable.com/katalon/',
               },
             ],
           },
