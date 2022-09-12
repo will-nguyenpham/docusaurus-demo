@@ -142,7 +142,36 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'PRODUCTS',
+            title: 'WHY KATALON',
+            items: [
+              {
+                label: 'Business Outcomes',
+                to: 'https://katalon.com/katalon-studio',
+              },
+              {
+                label: 'Easy speed',
+                to: 'https://katalon.com/katalon-recorder-ide',
+              },
+              {
+                label: 'Flexibility, Scalability',
+                to: 'https://katalon.com/testops/',
+              },
+              {
+                label: 'Visibility',
+                to: 'https://katalon.com/testcloud',
+              },
+              {
+                label: 'Innovation & AI',
+                to: 'https://store.katalon.com/',
+              },
+              {
+                label: 'Low cost, High ROI',
+                to: 'https://katalon.com/pricing/',
+              },
+            ],
+          },
+          {
+            title: 'PLATFORM',
             items: [
               {
                 label: 'Katalon Studio',
@@ -201,7 +230,7 @@ const config = {
             ],
           },
           {
-            title: 'SUPPORT',
+            title: 'RESOURCES',
             items: [
               {
                 label: 'Blog',
@@ -228,6 +257,9 @@ const config = {
                 to: 'https://katalon.com/webinars',
               },             
             ],
+          },
+          {
+            title: 'DOCS',
           },
           {
             title: 'COMPANY',
