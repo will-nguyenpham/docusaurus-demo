@@ -3,71 +3,40 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.scss';
 
-type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  link: string;
-};
-
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Studio',
-    Svg: require('@site/static/img/studio.svg').default,
-    link: "docs/katalon-studio-enterprise/welcome-to-katalon-studio",
-  },
-  {
-    title: 'Runtime Engine',
-    Svg: require('@site/static/img/runtime_engine.svg').default,
-    link: "docs/katalon-runtime-engine/introduction-to-runtime-engine",
-  },
-  {
-    title: 'Recorder',
-    Svg: require('@site/static/img/recorder.svg').default,
-    link: "docs/katalon-recorder/get-started/overview",
-  },
-  {
-    title: 'TestCloud',
-    Svg: require('@site/static/img/testcloud.svg').default,
-    link: "docs/katalon-testcloud/testcloud-overview",
-  },
-  {
-    title: 'TestOps',
-    Svg: require('@site/static/img/testops.svg').default,
-    link: "docs/katalon-testops/overview/testops-overview",
-  },
-  {
-    title: 'Store',
-    Svg: require('@site/static/img/store.svg').default,
-    link: "docs/katalon-store/overview",
-  },
-];
-
-function Feature({title, Svg, link}: FeatureItem) {
+function leftView() {
   return (
-    <Link
-      className={clsx('col col--4')}
-      style={{ textDecoration: "none" }}
-      to={link}
-    >
-      <div className={styles.featuresItem}>
-        <div className={styles.featureSvg}>
-          <Svg alt={title} />
-        </div>
-        <p className={styles.featuresText}>{title}</p>
-      </div>
-    </Link>
-  );
+  <div className={styles.leftView}>
+    <div className={styles.centerView}>
+      <p className={styles.headerText}>
+        A modern, comprehensive<br></br>
+        quality management platform
+      </p>
+      <p className={styles.normalText}>
+        Katalon Platform gives users across<br></br>
+        organizations, platforms, and environments the<br></br>
+        capabilities to more efficiently and confidently<br></br>
+        launch high-quality digital experiences.
+      </p>
+      <button className={styles.learnMore} onClick={() => window.location.href = 'http://docs.katalon.com/docs'}>
+        Learn more
+      </button>
+    </div>
+  </div>);
+}
+
+function rightView() {
+  const SvgProduct = require('@site/static/img/product.svg').default;
+  return (<div className={styles.rightView}>
+      <SvgProduct/>
+    </div>);
 }
 
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className={clsx("container", styles.container)}>
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+        {leftView()}
+        {rightView()}
       </div>
     </section>
   );

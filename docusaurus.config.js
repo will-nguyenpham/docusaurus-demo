@@ -145,26 +145,32 @@ const config = {
             title: 'WHY KATALON',
             items: [
               {
+                // TODO
                 label: 'Business Outcomes',
                 to: 'https://katalon.com/katalon-studio',
               },
               {
+                // TODO
                 label: 'Easy speed',
                 to: 'https://katalon.com/katalon-recorder-ide',
               },
               {
+                // TODO
                 label: 'Flexibility, Scalability',
                 to: 'https://katalon.com/testops/',
               },
               {
+                // TODO
                 label: 'Visibility',
                 to: 'https://katalon.com/testcloud',
               },
               {
+                // TODO
                 label: 'Innovation & AI',
                 to: 'https://store.katalon.com/',
               },
               {
+                // TODO
                 label: 'Low cost, High ROI',
                 to: 'https://katalon.com/pricing/',
               },
@@ -173,6 +179,11 @@ const config = {
           {
             title: 'PLATFORM',
             items: [
+              {
+                // TODO
+                 label: 'Platform Overview',
+                 to: 'https://store.katalon.com/',
+              },
               {
                 label: 'Katalon Studio',
                 to: 'https://katalon.com/katalon-studio',
@@ -190,10 +201,6 @@ const config = {
                 to: 'https://katalon.com/testcloud',
               },
               {
-                label: 'Katalon Store',
-                to: 'https://store.katalon.com/',
-              },
-              {
                 label: 'Pricing',
                 to: 'https://katalon.com/pricing/',
               },
@@ -203,7 +210,6 @@ const config = {
             title: 'SOLUTIONS',
             items: [
               {
-                // html: `<div style="display: flex; flex-direction: row;"><a href="https://katalon.com/visual-testing" class="footer__link-item" target="_blank">Visual Testing</a><img src="https://katalon-prod-asset.s3.amazonaws.com/themes/katalon_4/images/pages/pricing_landing_page/new_july_2022/new_mark.svg" alt="Visual Testing" class="new_mark_icon" style="margin: -3px 0 0 5px"></div>`
                 label: 'Visual Testing',
                 to: 'https://katalon.com/visual-testing',
               },
@@ -241,16 +247,12 @@ const config = {
                 to: 'https://forum.katalon.com/',
               },
               {
-                label: 'Docs',
-                to: '/',
-              },
-              {
                 label: 'Help Center',
                 to: 'https://katalonsupport.force.com/katalonhelpcenter/s/',
               },
               {
-                label: 'Training',
-                to: 'https://academy.katalon.com/',
+                label: 'Technical Support',
+                to: 'https://katalonsupport.force.com/katalonhelpcenter/s/',
               },
               {
                 label: 'Webinars',
@@ -260,6 +262,24 @@ const config = {
           },
           {
             title: 'DOCS',
+            items: [
+                {
+                    label: 'Documentation',
+                    to: '/',
+                },
+                {
+                    label: 'Getting Started',
+                    to: '/docs',
+                },
+                {
+                    label: 'Image Library on Docker',
+                    to: 'https://d1hwl7n516cx0o.cloudfront.net/katalon-studio/docs/docker.html',
+                },
+                {
+                    label: 'Sample Projects on Github',
+                    to: 'https://github.com/katalon-studio-samples',
+                },
+            ]
           },
           {
             title: 'COMPANY',

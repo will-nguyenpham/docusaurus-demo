@@ -29,7 +29,6 @@ export default function FooterLayout({style, links, logo, copyright}) {
   const SvgLinkedin = require('@site/static/img/ic_in.svg').default;
   const SvgYoutube = require('@site/static/img/ic_youtube.svg').default;
 
-
   return (
     <footer
       className={clsx('footer', {

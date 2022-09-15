@@ -1,5 +1,8 @@
 .container {
-  width: 65%;
+  // width: 100%;
+  flex-direction: row;
+  display: flex;
+  margin-top: 1rem;
 }
 
 .features {
@@ -7,78 +10,51 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
   margin-top: 2rem;
 }
 
-.featuresItem {
-  flex-direction: row;
+.leftView {
+  flex-grow: 5;
   display: flex;
   align-items: center;
-  background-color: #F2F2F2;
-  width: 252px;
-  margin: auto;
-  margin-top: 24px;
-  padding-left: 10px;
-  border-radius: 8px;
-  padding: 8px;
+  justify-content: center;
 }
 
-html[data-theme='dark'] .featuresItem {
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  background-color: #282828;
-  width: 252px;
-  margin: auto;
-  margin-top: 24px;
-  padding-left: 10px;
-  border-radius: 8px;
-  padding: 8px;
+.centerView {
+  
 }
 
-.featureSvg {
-  padding-left: 7px;
-  padding-top: 7px;
-  padding-right: 7px;
-  background-color: white;
-  border-radius: 4px;
+.rightView {
+  flex-grow: 5;
+  flex: auto;
 }
 
-html[data-theme='dark'] .featureSvg {
-  padding-left: 7px;
-  padding-top: 7px;
-  padding-right: 7px;
-  background-color: #4E4E4E;
-  border-radius: 4px;
-}
-
-.featuresText {
-  margin: auto;
-  width: 130px;
-  margin-left: 12px;
+.headerText {
   color: #09223B;
-  font-size: 16px;
-  line-height: 24px;
-  // font-weight: 500;
-  font-style: normal;
-  font-family: Inter-Medium;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: Inter-Bold;
 }
 
-html[data-theme='dark'] .featuresText {
-  margin: auto;
-  width: 130px;
-  margin-left: 12px;
+html[data-theme='dark'] .headerText {
   color: white;
+}
+
+.normalText {
+  font-size: 20px;
+}
+
+.learnMore {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 133px;
+  height: 40px;
+  background: #0F8461;
+  border-radius: 4px;
+  color: white;
+  border-color: transparent;
   font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-}
-
-.featuresItem:hover {
-  background-color: #E5E5E5;
-}
-
-html[data-theme='dark'] .featuresItem:hover {
-  background-color: #6A6A6A;
+  cursor:pointer;
 }
