@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import { isMobile } from 'react-device-detect';
 import styles from './styles.module.scss';
 
 function leftView() {
@@ -31,13 +32,25 @@ function rightView() {
     </div>);
 }
 
+function renderMainView() {
+  if (isMobile) {
+    return (
+    <div className={clsx("container", styles.container)}>
+        {rightView()}
+        {leftView()}
+      </div>
+    );
+  }
+  return (<div className={clsx("container", styles.container)}>
+      {leftView()}
+      {rightView()}
+    </div>);
+}
+
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-      <div className={clsx("container", styles.container)}>
-        {leftView()}
-        {rightView()}
-      </div>
+     {renderMainView()}
     </section>
   );
 }
