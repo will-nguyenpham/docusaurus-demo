@@ -52,9 +52,11 @@ function createNotiBanner(setHideNoti) {
   const Svgclose = require('@site/static/img/ic_close.svg').default;
   return (<div className={styles.viewParentNoti}>
      <div className={styles.notification}>
-      <Svgwarning />
-      <p className={styles.text}>We’re making changes to our server and Data Center products.</p>
-      <Link className={styles.link}>Learn more</Link>
+      <Svgwarning style={{ marginRight: "7px" }}/>
+      <p className={styles.text}>
+        Katalon documentation is changing! Information is now organized by activity rather than product.<br></br>
+        You can still find the older structure in the legacy version. <Link className={styles.link} to={"/docs/legacy"}>Learn more</Link>
+      </p>
     </div>
     <button className={styles.close} onClick={() => hideNotiBanner(setHideNoti)}><Svgclose/></button>
   </div>);
