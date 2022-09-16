@@ -17,6 +17,9 @@
 
 .footerContainer {
   display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
 }
 
 .footerContainerLeft {
@@ -157,6 +160,9 @@ html[data-theme='dark'] .footerSocialImg path {
 
 .contentBottom {
   display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
 }
 
 .contentBottomLeft {
