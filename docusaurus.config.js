@@ -107,7 +107,7 @@ const config = {
           },
           {
             to: 'https://www.katalon.com/download/',
-            label: 'Start Now',
+            label: 'Start now',
             position: 'right',
             className: 'bar-items-download',
           },
@@ -145,34 +145,28 @@ const config = {
             title: 'WHY KATALON',
             items: [
               {
-                // TODO
                 label: 'Business Outcomes',
-                to: 'https://katalon.com/katalon-studio',
+                to: 'https://katalon.com/business-outcomes',
               },
               {
-                // TODO
                 label: 'Easy speed',
-                to: 'https://katalon.com/katalon-recorder-ide',
+                to: 'https://katalon.com/business-outcomes#easyspeed',
               },
               {
-                // TODO
                 label: 'Flexibility, Scalability',
-                to: 'https://katalon.com/testops/',
+                to: 'https://katalon.com/business-outcomes#flexibility',
               },
               {
-                // TODO
                 label: 'Visibility',
-                to: 'https://katalon.com/testcloud',
+                to: 'https://katalon.com/business-outcomes#visibility',
               },
               {
-                // TODO
                 label: 'Innovation & AI',
-                to: 'https://store.katalon.com/',
+                to: 'https://katalon.com/business-outcomes#innovation',
               },
               {
-                // TODO
                 label: 'Low cost, High ROI',
-                to: 'https://katalon.com/pricing/',
+                to: 'https://katalon.com/business-outcomes#lowcost',
               },
             ],
           },
@@ -180,18 +174,17 @@ const config = {
             title: 'PLATFORM',
             items: [
               {
-                // TODO
                  label: 'Platform Overview',
-                 to: 'https://store.katalon.com/',
+                 to: 'https://katalon.com/katalon-platform',
               },
               {
                 label: 'Katalon Studio',
                 to: 'https://katalon.com/katalon-studio',
               },
-              {
-                label: 'Katalon Recorder',
-                to: 'https://katalon.com/katalon-recorder-ide',
-              },
+            //   {
+            //     label: 'Katalon Recorder',
+            //     to: 'https://katalon.com/katalon-recorder-ide',
+            //   },
               {
                 label: 'Katalon TestOps',
                 to: 'https://katalon.com/testops/',
@@ -247,8 +240,8 @@ const config = {
                 to: 'https://forum.katalon.com/',
               },
               {
-                label: 'Help Center',
-                to: 'https://katalonsupport.force.com/katalonhelpcenter/s/',
+                label: 'Success Stories',
+                to: 'https://katalon.com/case-studies/',
               },
               {
                 label: 'Technical Support',
@@ -293,17 +286,17 @@ const config = {
                 to: 'https://apply.workable.com/katalon/',
               },
               {
+                label: 'Events',
+                to: 'https://katalon.com/webinars/#events',
+              },
+              {
                 label: 'News',
                 to: 'https://katalon.com/resources-center/blog/tag/news',
               },
               {
                 label: 'Partners',
                 to: 'https://katalon.com/partners/',
-              },
-              {
-                label: 'Success Stories',
-                to: 'https://katalon.com/case-studies/',
-              },
+              }
             ],
           },
         ],

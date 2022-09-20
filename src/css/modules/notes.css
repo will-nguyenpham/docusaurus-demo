@@ -94,8 +94,8 @@ div.note > span.note__title {
 
 /* Background colors */
 div.note.note_note {
-  background: #DFEBFD;
-  border-left: 4px solid #0083FF;
+  background: #E8E5FF;
+  border-left: 4px solid #5959EB;
 }
 
 html[data-theme='dark'] div.note.note_note {
@@ -103,8 +103,8 @@ html[data-theme='dark'] div.note.note_note {
 }
 
 div.note.note_tip {
-  background: #DFEBFD;
-  border-left: 4px solid #0083FF;
+  background: #E8E5FF;
+  border-left: 4px solid #5959EB;
 }
 
 html[data-theme='dark'] div.note.note_tip {
