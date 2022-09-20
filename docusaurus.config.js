@@ -266,7 +266,7 @@ const config = {
                 },
                 {
                     label: 'Image Library on Docker',
-                    to: 'https://d1hwl7n516cx0o.cloudfront.net/katalon-studio/docs/docker.html',
+                    to: '/docs/legacy/katalon-runtime-engine/docker-image',
                 },
                 {
                     label: 'Sample Projects on Github',
