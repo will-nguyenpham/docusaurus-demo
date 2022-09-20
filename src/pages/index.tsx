@@ -55,7 +55,7 @@ function createNotiBanner(setHideNoti) {
       <Svgwarning style={{ marginRight: "7px" }}/>
       <p className={styles.text}>
         Katalon documentation is changing! Information is now organized by activity rather than product.<br></br>
-        You can still find the older structure in the legacy version. <Link className={styles.link} to={"/docs/legacy"}>Learn more</Link>
+        You can still find the older structure in the legacy version.
       </p>
     </div>
     <button className={styles.close} onClick={() => hideNotiBanner(setHideNoti)}><Svgclose/></button>
