@@ -106,7 +106,7 @@ const config = {
             className: 'bar-items-text',
           },
           {
-            to: 'https://www.katalon.com/download/',
+            to: 'https://katalon.com/sign-up',
             label: 'Start now',
             position: 'right',
             className: 'bar-items-download',
@@ -373,6 +373,7 @@ const config = {
           {
               "to": "/docs/legacy/katalon-recorder/production-evaluation-center/katalon-recorder-vs-selenium-ide",
               "from": [
+                "/docs/katalon-recorder/production-evaluation-center/katalon-recorder-vs-selenium-ide",
                   "/katalon-recorder/docs/katalon-recorder-vs-selenium-ide.html"
               ]
           },
