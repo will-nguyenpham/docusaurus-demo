@@ -56,7 +56,7 @@ const config = {
         },
       },
       navbar: {
-        title: 'Katalon Docs',
+        title: 'Katalon docs',
         hideOnScroll: true,
         logo: {
           alt: 'Katalon Docs Logo',
@@ -338,6 +338,18 @@ const config = {
                     "/katalon-studio/docs/index.html",
                     "/index.html",
                     "/display/KD/"
+                ]
+            },
+            {
+                "to": "/docs/author/troubleshooting-for-test-authoring/troubleshoot-common-exceptions/unable-to-open-recent-projects-in-katalon-studio---platform-edition",
+                "from": [
+                    "/docs/test-generation/troubleshooting-for-test-generation/troubleshoot-common-exceptions/troubleshoot-common-exceptions-for-test-generation"
+                ]
+            },
+            {
+                "to": "/docs/administer/katalon-platform-packages/katalon-platform-trial-plans",
+                "from": [
+                    "/docs/administration/katalon-platform-offerings/request-trial"
                 ]
             },
             {
