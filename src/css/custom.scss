@@ -66,21 +66,21 @@
 }
 
 :root {
-  --ifm-color-primary: #0077ED;
-  --ifm-color-primary-dark: #006BD5;
-  --ifm-color-primary-darker: #0060C0;
-  --ifm-color-primary-darkest: #004E9B;
-  --ifm-color-primary-light: #0083FF;
-  --ifm-color-primary-lighter: #009EFF;
-  --ifm-color-primary-lightest: #32BEFF;
+  --ifm-color-primary: #5959EB;
+  --ifm-color-primary-dark: #5959EB;
+  --ifm-color-primary-darker: #5959EB;
+  --ifm-color-primary-darkest: #5959EB;
+  --ifm-color-primary-light: #5959EB;
+  --ifm-color-primary-lighter: #5959EB;
+  --ifm-color-primary-lightest: #5959EB;
   --ifm-code-font-size: 95%;
   --ifm-menu-color: #243B53;
   --ifm-font-family-base: Inter-Regular;
-  // --ifm-font-weight-light: 300 !important;
-  // --ifm-font-weight-normal: 400 !important;
-  // --ifm-font-weight-semibold: 500 !important;
-  // --ifm-font-weight-bold: 700 !important;
   --aa-primary-color-rgb: #486581 !important;
+  --ifm-footer-link-hover-color: #5959EB;
+  --ifm-link-hover-decoration: none;
+  --ifm-navbar-link-hover-color: #5959EB;
+  --ifm-link-color: #5959EB;
   --aa-scrollbar-track-background-color-rgb: 255, 255, 255 !important;
   --aa-scrollbar-thumb-background-color-rgb: 127, 127, 127 !important;
   .menu__link--sublist-caret:after {
@@ -90,14 +90,18 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='dark'] {
-  --ifm-color-primary: #00AEFF;
-  --ifm-color-primary-dark: #009EFF;
-  --ifm-color-primary-darker: #0077ED;
-  --ifm-color-primary-darkest: #006BD5;
-  --ifm-color-primary-light: #009EFF;
-  --ifm-color-primary-lighter: #32BEFF;
-  --ifm-color-primary-lightest: #7FD6FF;
+  --ifm-color-primary: #5959EB;
+  --ifm-color-primary-dark: #5959EB;
+  --ifm-color-primary-darker: #5959EB;
+  --ifm-color-primary-darkest: #5959EB;
+  --ifm-color-primary-light: #5959EB;
+  --ifm-color-primary-lighter: #5959EB;
+  --ifm-color-primary-lightest: #5959EB;
   --ifm-menu-color: white;
+  --ifm-footer-link-hover-color: #5959EB;
+  --ifm-link-hover-decoration: none;
+  --ifm-navbar-link-hover-color: #5959EB;
+  --ifm-link-color: #5959EB;
   // --ifm-font-family-base: Inter-Medium, Inter-Regular, Inter-Black, Inter-Bold, Inter-ExtraBold, Inter-ExtraLight, Inter-Light, Inter-SemiBold, Inter-Thin;
   --aa-primary-color-rgb: #F5F6F7;
   --aa-scrollbar-track-background-color-rgb: 68, 70, 75 !important;
@@ -243,6 +247,14 @@ html[data-theme='dark'] .rating-icons {
     border: 1px solid white !important;
   }
 
+}
+
+.dt * {
+  color: black;
+}
+
+html[data-theme='dark'] .dt * {
+  color: white;
 }
 
 .aa-GradientBottom {
