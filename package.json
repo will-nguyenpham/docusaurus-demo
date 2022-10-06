@@ -4,15 +4,17 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "node --max_old_space_size=7168 node_modules/@docusaurus/core/bin/docusaurus.mjs start",
-    "build": "node --max_old_space_size=7168 node_modules/@docusaurus/core/bin/docusaurus.mjs build",
+    "start": "docusaurus start",
+    "build": "rm -rf build && npm run build-nodejs",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "start-nodejs": "concurrently \"node src/generate.js --watch js\" \"npm run start\"",
+    "build-nodejs": "node --max-old-space-size=4096 node_modules/.bin/docusaurus build --out-dir=build"
   },
   "dependencies": {
     "@algolia/autocomplete-js": "1.5.7",
