@@ -7125,8 +7125,8 @@ const config = {
           accessKeyId: "AKIATMYDRPBP4LNWDQNO",
           secretAccessKey: "YrnzvvWilzEYWRtlCDcAqj6xG",
           bucket: "katalon-staging-docs",
-          key: "katalondocs"
-        //   region: "us-east-2"
+          key: "katalondocs",
+          region: "us-east-1"
         }
     }
     ],
