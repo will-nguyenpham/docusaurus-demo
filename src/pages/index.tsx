@@ -14,7 +14,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={styles.header}>
-      <h3 className={styles.header.title}>{siteConfig.title}</h3>
+      <h3 className={styles.header.title}>Katalon docs</h3>
     </header>
   );
 }
@@ -40,6 +40,7 @@ function search(searchClient, siteConfig, algoliaInsightsPlugin) {
   );
 }
 
+var algoliaClient;
 var searchClient;
 var algoliaInsightsPlugin;
 
@@ -64,8 +65,21 @@ function createNotiBanner(setHideNoti) {
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
-  if (searchClient == undefined) {
-    searchClient = algoliasearch(siteConfig.customFields.appId, siteConfig.customFields.apiKey);
+  if (algoliaClient == undefined) {
+    algoliaClient = algoliasearch(siteConfig.customFields.appId, siteConfig.customFields.apiKey);
+    searchClient = {
+      search(requests) {
+        const newRequests = requests.map((request)=>{
+          
+          // test for empty string and change request parameter: analytics
+          if(!request.params.query || request.params.query.length===0) {
+            request.params.analytics=false
+          }
+          return request
+        });
+        return algoliaClient.search(newRequests);
+      },
+    };
     insightsClient('init', { appId: siteConfig.customFields.appId, apiKey: siteConfig.customFields.apiKey, useCookie: true });
     algoliaInsightsPlugin = createAlgoliaInsightsPlugin({ insightsClient });
   }

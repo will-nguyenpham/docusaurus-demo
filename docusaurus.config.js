@@ -7119,7 +7119,17 @@ const config = {
         ],
     },
   // highlight-end
-  ],
+    ],
+    ['plugin-auto-redirect', {
+        s3Config: {
+          accessKeyId: "AKIATMYDRPBP4LNWDQNO",
+          secretAccessKey: "YrnzvvWilzEYWRtlCDcAqj6xG",
+          bucket: "katalon-staging-docs",
+          key: "katalondocs"
+        //   region: "us-east-2"
+        }
+    }
+    ],
 ],
 };
 
