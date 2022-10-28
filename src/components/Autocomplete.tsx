@@ -68,8 +68,6 @@ export function Autocomplete({
 
     const autocompleteInstance = autocomplete({
       ...autocompleteProps,
-      detachedMediaQuery: '',
-      defaultActiveItemId: 0,
       classNames: {
         form: cx(styles.formContainer),
         input: cx(styles.inputSearch),
@@ -95,9 +93,7 @@ export function Autocomplete({
         createElement,
         Fragment,
       },
-      render({ children, state, Fragment, components }, root) {
-        const { preview } = state.context;
-        console.log("preview", preview);
+      render({ children }, root) {
         const view = ( <div className={styles.searchResult} style={{ height: "25em", paddingBottom: "50px" }}>
           <div className={styles.headerSearch}>
             <p className={styles.titleSearch}>Documentation</p>
@@ -113,9 +109,6 @@ export function Autocomplete({
         return [
           {
             sourceId: 'docItems',
-            onActive({ item, setContext }) {
-              setContext({ preview: item });
-            },
             getItems() {
               return getAlgoliaResults({
                 searchClient,
@@ -133,9 +126,6 @@ export function Autocomplete({
             },
             getItemInputValue({ item }) {
               return item.query;
-            },
-            getItemUrl({ item }) {
-              return item.url;
             },
             templates: {
               item({ item }) {
