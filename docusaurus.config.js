@@ -319,7 +319,7 @@ const config = {
       // highlight-start
       {
         createRedirects(existingPath) {
-            existingPath.replace('', '/legacy');
+            existingPath.replace('/legacy', '');
           },
     },
   // highlight-end
