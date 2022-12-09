@@ -321,8 +321,8 @@ const config = {
         createRedirects(existingPath) {
             if (existingPath.includes('/legacy')) {
               return [
-                existingPath.replace('/legacy', ''),
-                existingPath.replace('/legacy', ''),
+                existingPath.replace('', '/legacy'),
+                existingPath.replace('', '/legacy'),
               ];
             }
             return undefined; // Return a falsy value: no redirect created
