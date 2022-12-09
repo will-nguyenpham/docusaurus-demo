@@ -320,7 +320,7 @@ const config = {
       {
         createRedirects(existingPath) {
             return [
-                existingPath.replace('', '/docs/legacy')
+                existingPath.replace('/docs', '/docs/legacy')
             ];
           },
     },
