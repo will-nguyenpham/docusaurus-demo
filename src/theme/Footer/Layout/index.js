@@ -3,12 +3,13 @@ import clsx from 'clsx';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import ThemedImage from '@theme/ThemedImage';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 function FooterLeftView(copyright) {
   const SvgLogo = require('@site/static/img/logo.svg').default;
   return (
     <div className={styles.footerContainerLeft}>
-      <div className={styles.logoContainer}>
+      <button className={styles.logoContainer} style={{ background: 'transparent', border: '0px' }} onClick={() => window.open('https://katalon.com/', '_blank')}>
          {/* <SvgLogo className={styles.logo}/> */}
          <ThemedImage
             className={styles.logo}
@@ -18,7 +19,7 @@ function FooterLeftView(copyright) {
             }}
           />
          <p className={styles.logoText}>Katalon</p>
-      </div>
+      </button>
     </div>
   )
 }
@@ -47,11 +48,11 @@ export default function FooterLayout({style, links, logo, copyright}) {
         <div style={{ height: "1px", width: "100%", backgroundColor: "#E5E5E5" }}/>
         <div className={styles.contentBottom}>
           <div className={styles.contentBottomLeft}>
-            <p className={styles.footerCompanyText}>1776 Peachtree Street NW, Suite 200N, Atlanta, GA 30309<br/>
-              Phone: +1 678-500-9185<br/>
-              General & Legal inquiries: info@katalon.com<br/>
-              License & Purchase inquiries: business@katalon.com<br/>
-              Partnership inquiries: partner@katalon.com<br/>
+            <p className={styles.footerCompanyText}>
+              1776 Peachtree Street NW, Suite 200N, Atlanta, GA 30309<br/>
+              General & Legal inquiries: <a className={styles.linkBussiness} href="mailto:business@katalon.com">business@katalon.com</a><br/>
+              License & Purchase inquiries: <a className={styles.linkBussiness} href="mailto:business@katalon.com">business@katalon.com</a><br/>
+              Partnership inquiries: <a className={styles.linkBussiness} href="mailto:partner@katalon.com">partner@katalon.com</a><br/>
             </p>
           </div>
           <div className={styles.contentBottomRight}>

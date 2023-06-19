@@ -8,7 +8,6 @@ import insightsClient from 'search-insights';
 import { createAlgoliaInsightsPlugin } from '@algolia/autocomplete-plugin-algolia-insights';
 import { Autocomplete } from '../components';
 import styles from './index.module.scss';
-import Link from '@docusaurus/Link';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -40,56 +39,20 @@ function search(searchClient, siteConfig, algoliaInsightsPlugin) {
   );
 }
 
-var algoliaClient;
 var searchClient;
 var algoliaInsightsPlugin;
 
-function hideNotiBanner(setHideNoti) {
-  setHideNoti(true);
-}
-
-function createNotiBanner(setHideNoti) {
-  const Svgwarning = require('@site/static/img/ic_warning.svg').default;
-  const Svgclose = require('@site/static/img/ic_close.svg').default;
-  return (<div className={styles.viewParentNoti}>
-     <div className={styles.notification}>
-      <Svgwarning style={{ marginRight: "7px" }}/>
-      <p className={styles.text}>
-        Katalon documentation is changing! Information is now organized by activity rather than product.<br></br>
-        You can still find the older structure in the legacy version.
-      </p>
-    </div>
-    <button className={styles.close} onClick={() => hideNotiBanner(setHideNoti)}><Svgclose/></button>
-  </div>);
-}
-
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
-  if (algoliaClient == undefined) {
-    algoliaClient = algoliasearch(siteConfig.customFields.appId, siteConfig.customFields.apiKey);
-    searchClient = {
-      search(requests) {
-        const newRequests = requests.map((request)=>{
-          
-          // test for empty string and change request parameter: analytics
-          if(!request.params.query || request.params.query.length===0) {
-            request.params.analytics=false
-          }
-          return request
-        });
-        return algoliaClient.search(newRequests);
-      },
-    };
+  if (searchClient == undefined) {
+    searchClient = algoliasearch(siteConfig.customFields.appId, siteConfig.customFields.apiKey);
     insightsClient('init', { appId: siteConfig.customFields.appId, apiKey: siteConfig.customFields.apiKey, useCookie: true });
     algoliaInsightsPlugin = createAlgoliaInsightsPlugin({ insightsClient });
   }
 
-  const [hideNoti, setHideNoti] = useState(false);
-
   return (
     <Layout>
       <div>
-        {!hideNoti && createNotiBanner(setHideNoti)}
         <HomepageHeader />
         {search(searchClient, siteConfig, algoliaInsightsPlugin)}
         <main>

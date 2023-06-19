@@ -4,6 +4,7 @@ import type { AutocompleteOptions } from '@algolia/autocomplete-js';
 import { getAlgoliaResults } from "@algolia/autocomplete-preset-algolia";
 import { Snippet } from './Snippet';
 import { PoweredBy } from './PoweredBy';
+import { createLocalStorageRecentSearchesPlugin } from '@algolia/autocomplete-plugin-recent-searches';
 
 import React, {
   createElement,
@@ -46,6 +47,21 @@ export function Autocomplete({
 
   const { query, refine: setQuery } = useSearchBox();
 
+  const recentSearchesPlugin = createLocalStorageRecentSearchesPlugin({
+    key: 'RECENT_SEARCH',
+    limit: 5,
+    transformSource({ source }) {
+      return {
+        ...source,
+        onSelect({ item }) {
+          // Assuming the refine function updates the search page state.
+          console.log(item);
+          setQuery(item.label);
+        },
+      };
+    },
+  });
+
   const [
     instantSearchUiState,
     setInstantSearchUiState,
@@ -75,7 +91,7 @@ export function Autocomplete({
         item: cx(styles.item),
       },
       container: autocompleteContainer.current,
-      initialState: { query },
+      // initialState: { query },
       onReset() {
         setInstantSearchUiState({ query: '' });
       },
@@ -104,7 +120,7 @@ export function Autocomplete({
         </div>)
         render(view as ReactElement, root);
       },
-      plugins: [algoliaInsightsPlugin],
+      plugins: [recentSearchesPlugin, algoliaInsightsPlugin],
       getSources({ query }) {
         return [
           {

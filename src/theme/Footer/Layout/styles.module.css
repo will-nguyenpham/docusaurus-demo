@@ -125,11 +125,12 @@ html[data-theme='dark'] .footerPrivacyText {
 
 .logoContainer {
   display: inline-flex;
+  cursor: pointer;
 }
 
 .logo {
   margin-left: 0;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   width: 20px;
   height: 37px;
 }
@@ -176,4 +177,9 @@ html[data-theme='dark'] .footerSocialImg path {
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
+}
+
+.linkBussiness {
+  text-decoration: underline;
+  color: inherit;
 }
