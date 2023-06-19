@@ -5,7 +5,7 @@ function TOCItemTree({toc, className, linkClassName, isChild}) {
   if (!toc.length) {
     return null;
   }
-  
+
   return (
     <ul className={isChild ? undefined : className}>
       {toc.map((heading) => (
@@ -16,13 +16,13 @@ function TOCItemTree({toc, className, linkClassName, isChild}) {
             className={linkClassName ?? undefined} // Developer provided the HTML, so assume it's safe.
             // eslint-disable-next-line react/no-danger
             // dangerouslySetInnerHTML={{
-            //   __html: `<div> ${heading.value} </div>`,
+            //   __html: heading.value,
             // }}
           >
-           <div
-            dangerouslySetInnerHTML={{__html: heading.value}}
-          ></div>
-          </a>
+            <div
+             dangerouslySetInnerHTML={{__html: heading.value}}
+           ></div>
+           </a>
           <TOCItemTree
             isChild
             toc={heading.children}

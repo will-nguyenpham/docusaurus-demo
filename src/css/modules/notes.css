@@ -203,11 +203,11 @@ html[data-theme='dark'] div.note * {
 }
 
 div.note a {
-  color: #0077ED;
+  color: #5959EB;
 }
 
 html[data-theme='dark'] div.note a {
-  color: #009EFF;
+  color: #5959EB;
 }
 
 /* Fix issues with background colors */
